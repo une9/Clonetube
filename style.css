@@ -1,0 +1,286 @@
+/* reset */
+
+:root {
+    --basic-font-size: 1rem;
+    --small-font-size: 0.9rem;
+    --smaller-font-size: 0.8rem;
+    --icon-size: 1.4rem;
+}
+
+html {
+    font-size: 15px;
+    min-width: 324px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/* now playing video */
+/* video */
+
+#nowplaying, .thumb {
+    background: grey;
+    position: relative;
+    padding-top: 56.25%;
+}
+
+
+
+/* video info */
+
+#info {
+    padding: 1rem 1.1rem 0 1.1rem;
+}
+
+#info-video {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#info-video #title {
+    width: 85%;
+    margin-bottom: 0.2rem;
+}
+
+#info-video-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-upload {
+    font-size: var(--smaller-font-size);
+    color: grey;
+    display: flex;
+}
+
+#info-video-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+}
+
+.info-video-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--smaller-font-size);
+}
+
+.info-video-2 i {
+    font-size: var(--icon-size);
+    padding: 0.4rem;
+}
+
+
+
+/* channel info */
+
+.channelimg {
+    display: block;
+    border-radius: 50%;
+    background: blue;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.75rem;
+    overflow: hidden;
+}
+
+.channelimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info-channel {
+    padding: 0.4rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+}
+
+#channel-left, #channel-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#subscribers {
+    font-size: var(--smaller-font-size);
+    color: grey;
+}
+
+#subscribeStatus {
+    color: grey;
+}
+
+#alarm {
+    font-size: var(--icon-size);
+    margin-left: 1.5rem;
+    color: grey;
+}
+
+/* comments */
+
+#comments {
+    padding: 0.5rem 1.2rem 1rem 1.2rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgrey;
+}
+
+#comment {
+    flex-grow: 0;
+}
+
+#comments-info-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    flex-grow: 1;
+}
+
+#comments-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#comments-info span {
+    vertical-align: bottom;
+}
+
+#comments-info-number {
+    font-size: var(--small-font-size);
+    color: grey;
+}
+
+#comments input {
+    height: 1rem;
+    padding: 0.7rem 1rem;
+    margin-top: 0.75rem;
+    border-radius: 4px;
+    border: 0px;
+    background: hsl(0, 0%, 89%);
+    float: right;
+}
+
+#comments input::placeholder {
+    font-size: 0.75rem;
+    color: hsl(0, 0%, 22%);
+}
+
+
+
+/* related video list */
+
+#relatedvideolist {
+    padding: 0 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.RV {
+    margin-bottom: 0.5rem;
+}
+
+.RVinfo {
+    padding: 0.5rem;
+}
+
+.channelimg {
+    flex-shrink: 0;
+}
+
+.videoinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.video-info-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.video-info-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.active-block {
+    display: flex;
+}
+
+.hover-buttons {
+    position: relative;
+    float: right;
+    z-index: 10;
+    color: white;
+    font-size: var(--icon-size);
+    display: none;
+}
+
+.watch-later, .add-to-list {
+
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0.75rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RVthumb:hover .hover-buttons{
+    display: block;
+}
+
+
+/* media query */
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #thisvideo {
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+
+    #relatedvideolist {
+        width: 350px;
+        flex-shrink: 0;
+    }
+
+    .active {
+        display: none;
+    }
+
+    .video-info-right .view-upload {
+        flex-direction: column;
+    }
+}
