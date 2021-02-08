@@ -230,17 +230,22 @@ body {
     display: flex;
 }
 
-.hover-buttons {
+.RVthumb {
     position: relative;
-    float: right;
-    z-index: 10;
+}
+
+.hover-buttons{
     color: white;
     font-size: var(--icon-size);
     display: none;
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
 }
 
 .watch-later, .add-to-list {
-
     background: rgba(0, 0, 0, 0.7);
     margin: 0.75rem;
     width: 2.3rem;
@@ -254,6 +259,29 @@ body {
 .RVthumb:hover .hover-buttons{
     display: block;
 }
+
+.playtime {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0.75rem;
+    padding: 0 0.3rem 0.2rem 0.3rem;
+    border-radius: 4px;
+    color: white;
+    font-size: var(--smaller-font-size);
+
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+}
+
+.playtime span {
+    vertical-align: middle;
+} 
+
+.RVthumb:hover .playtime {
+    display: none;
+}
+
 
 
 /* media query */
