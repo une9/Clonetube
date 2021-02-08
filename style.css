@@ -24,10 +24,15 @@ body {
 /* now playing video */
 /* video */
 
-#nowplaying, .thumb {
+#nowplaying {
     background: grey;
     position: relative;
     padding-top: 56.25%;
+}
+
+.thumb img {
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -82,7 +87,7 @@ body {
 
 /* channel info */
 
-.channelimg {
+.channel-image {
     display: block;
     border-radius: 50%;
     background: blue;
@@ -92,7 +97,7 @@ body {
     overflow: hidden;
 }
 
-.channelimg img{
+.channel-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -117,7 +122,7 @@ body {
     color: grey;
 }
 
-#subscribeStatus {
+#subscribe-status {
     color: grey;
 }
 
@@ -181,24 +186,24 @@ body {
 
 /* related video list */
 
-#relatedvideolist {
+#related-video-list {
     padding: 0 1.1rem;
     margin-top: 0.5rem;
 }
 
-.RV {
+.rv {
     margin-bottom: 0.5rem;
 }
 
-.RVinfo {
+.rv-info {
     padding: 0.5rem;
 }
 
-.channelimg {
+.channel-image {
     flex-shrink: 0;
 }
 
-.videoinfo {
+.video-info {
     display: flex;
     flex-direction: row;
 }
@@ -230,7 +235,7 @@ body {
     display: flex;
 }
 
-.RVthumb {
+.rv-thumb {
     position: relative;
 }
 
@@ -256,7 +261,7 @@ body {
     align-items: center;
 }
 
-.RVthumb:hover .hover-buttons{
+.rv-thumb:hover .hover-buttons{
     display: block;
 }
 
@@ -278,7 +283,7 @@ body {
     vertical-align: middle;
 } 
 
-.RVthumb:hover .playtime {
+.rv-thumb:hover .playtime {
     display: none;
 }
 
@@ -299,7 +304,7 @@ body {
         flex-grow: 1;
     }
 
-    #relatedvideolist {
+    #related-video-list {
         width: 350px;
         flex-shrink: 0;
     }
