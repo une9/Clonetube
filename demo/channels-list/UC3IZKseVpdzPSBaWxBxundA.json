@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "lpYTrRZdMmxOX3o12ht3o59eE7p",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "UslH_oTUdr5iITwP1t8jhiwgLXM",
+      "id": "UC3IZKseVpdzPSBaWxBxundA",
+      "snippet": {
+        "title": "Big Hit Labels",
+        "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION.",
+        "customUrl": "bighitlabels",
+        "publishedAt": "2008-06-04T08:23:22Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Big Hit Labels",
+          "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION."
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UU3IZKseVpdzPSBaWxBxundA"
+        }
+      },
+      "statistics": {
+        "viewCount": "14473749710",
+        "subscriberCount": "50900000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "525"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Big Hit Labels",
+          "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION.",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-115776202-1",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "RuGE7rhuT14",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/RzAq8-UqHqR5o6ztQcABgAlD3d2olppGEJSl27jw8yhuGPe34h00tqUhcVTOZxW1wfzgfj7TBHQ"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

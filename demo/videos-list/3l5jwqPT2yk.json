@@ -1,0 +1,104 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "Livy5O7UQ11qZPL5Kf4kGfqISsL",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "pyR8SCjL_M2_EoImOjl6CD_H_QE",
+      "id": "3l5jwqPT2yk",
+      "snippet": {
+        "publishedAt": "2020-10-21T08:00:00Z",
+        "channelId": "UCOmHUn--16B90oW2L6FRR3A",
+        "title": "BLACKPINK - 'Lovesick Girls' Jimmy Kimmel Live",
+        "description": "#BLACKPINK #블랙핑크 #LovesickGirls #JimmyKimmelLive #BLACKPINKonKIMMEL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3l5jwqPT2yk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3l5jwqPT2yk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3l5jwqPT2yk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3l5jwqPT2yk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3l5jwqPT2yk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BLACKPINK",
+        "tags": [
+          "YG Entertainment",
+          "YG",
+          "와이지",
+          "K-pop",
+          "BLACKPINK",
+          "블랙핑크",
+          "블핑",
+          "제니",
+          "로제",
+          "리사",
+          "지수",
+          "Lisa",
+          "Jisoo",
+          "Jennie",
+          "Rosé",
+          "BLINK",
+          "블링크",
+          "Lovesick Girls",
+          "BLACKPINK Lovesick Girls",
+          "블랙핑크 Lovesick Girls",
+          "THE ALBUM",
+          "BLACKPINK THE ALBUM",
+          "블랙핑크 THE ALBUM",
+          "BLACKPINK LSG",
+          "LSG",
+          "블랙핑크 LSG",
+          "Jimmy Kimmel Live"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "BLACKPINK - 'Lovesick Girls' Jimmy Kimmel Live",
+          "description": "#BLACKPINK #블랙핑크 #LovesickGirls #JimmyKimmelLive #BLACKPINKonKIMMEL"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT3M38S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "27104728",
+        "likeCount": "1621753",
+        "dislikeCount": "22826",
+        "favoriteCount": "0",
+        "commentCount": "54955"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/3l5jwqPT2yk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

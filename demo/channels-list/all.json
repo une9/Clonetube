@@ -1,0 +1,629 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "0KNbZAaKv07bQOPsLhC065iBIDk",
+  "pageInfo": {
+    "totalResults": 9,
+    "resultsPerPage": 9
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "YWrk9X1LZYzH0nceRYsovM-Kt4w",
+      "id": "UCIcXK1CI8URMIqNO_1cehiQ",
+      "snippet": {
+        "title": "AKMU",
+        "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현",
+        "publishedAt": "2014-03-13T09:02:56Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "AKMU",
+          "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUIcXK1CI8URMIqNO_1cehiQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "439651794",
+        "subscriberCount": "2250000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "119"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "AKMU",
+          "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현",
+          "keywords": "\"YG Entertainment\" YG 와이지 K-pop 악동뮤지션 악뮤 \"AKDONG MUSICIAN\" AKMU 이찬혁 이수현 \"Lee Chanhyuk\" \"Lee Suhyun\" 찬혁 수현 Chanhyuk Suhyun",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-40059621-16",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "wgVyY-snqd4",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/dlgSJG0sckhiJXHulqPLfICEmgnemujdT6Z68hRz-jAARMksCYdHKi8gMtK-q9kKeoGiJiIs2w"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "PMzucxgUI6SzsJ4Gie2Dy6FXEas",
+      "id": "UCe52oeb7Xv_KaJsEzcKXJJg",
+      "snippet": {
+        "title": "MBCkpop",
+        "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!",
+        "publishedAt": "2011-12-14T08:08:18Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MBCkpop",
+          "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUe52oeb7Xv_KaJsEzcKXJJg"
+        }
+      },
+      "statistics": {
+        "viewCount": "6784813591",
+        "subscriberCount": "9070000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "39451"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MBCkpop",
+          "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!",
+          "keywords": "mbc kpop music \"korean pop\"",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-31611779-1",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "EZ6AdkswEaM",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/RAuFTdl8eZA_YVNPF2iqy_7R8FRKcsJwHWYPpuglep9KM4JZDBOfDn4DRwJADsFtmtB1ECJnnA"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "dgkvjhipPsG7qUP6-BWWl3kq9nE",
+      "id": "UCxAICW_LdkfFYwTqTHHE0vg",
+      "snippet": {
+        "title": "MTV",
+        "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come.",
+        "customUrl": "mtv",
+        "publishedAt": "2005-11-22T12:42:46Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MTV",
+          "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUxAICW_LdkfFYwTqTHHE0vg"
+        }
+      },
+      "statistics": {
+        "viewCount": "2126594229",
+        "subscriberCount": "8600000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "4740"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MTV",
+          "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come.",
+          "keywords": "MTV MTVnews \"MTV news\" MTVu MTVother MTV(other) series movies music news \"Teen Wolf\" Scream \"Faking It\" Catfish VMA \"Teen Mom\" \"Jersey Shore\" Entertainment \"Video Music Awards\" \"Movie Awards\" \"TV Awards\" \"Reality TV\" \"Pop Culture\" \"The Challenge\"",
+          "defaultTab": "Featured",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "bYkhEdZeGFg",
+          "profileColor": "#000000",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/xyfPvYyt9kQOsIbD3v10aIo2GsRh-1NFJH3NBEiIAqwEKfp6CQiAmXxQrcWEkL_C1eSu510ntg"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "70vmFnGwUVtzGQYsTdg-IbPNNc4",
+      "id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+      "snippet": {
+        "title": "1theK (원더케이)",
+        "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com",
+        "customUrl": "1thek",
+        "publishedAt": "2011-01-31T07:04:16Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "1theK (원더케이)",
+          "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUweOkPb1wVVH0Q0Tlj4a5Pw"
+        }
+      },
+      "statistics": {
+        "viewCount": "18855648618",
+        "subscriberCount": "21900000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "13867"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "1theK (원더케이)",
+          "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com",
+          "keywords": "1theK 원더케이 로엔 로엔엔터테인먼트 아이유 멜론 IU loen loenentertainment melon 우주소녀 더보이즈 THEBOYZ",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-48720527-3",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "MqzXSniTyMo",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/QA57Y2qCAjRvscNzfOn3sKgEvcW-G83uVhng8LQDQbzV-SFNnnvcYNu4P3C8lJyIWiYUI12vLQ"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "AWg7Hb5LUTylkwt4g5Oc0v9B86Q",
+      "id": "UCmth4hMyizG-_W9jidBqs_A",
+      "snippet": {
+        "title": "Jaeguchi",
+        "description": "제구치입니다.",
+        "publishedAt": "2016-08-29T13:42:32Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwniKRrcGfP6Aibw5YyUpW13QqTkX3plAyhfFvuoF3Q=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwniKRrcGfP6Aibw5YyUpW13QqTkX3plAyhfFvuoF3Q=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwniKRrcGfP6Aibw5YyUpW13QqTkX3plAyhfFvuoF3Q=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Jaeguchi",
+          "description": "제구치입니다."
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUmth4hMyizG-_W9jidBqs_A"
+        }
+      },
+      "statistics": {
+        "viewCount": "3029007560",
+        "subscriberCount": "4030000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "518"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Jaeguchi",
+          "description": "제구치입니다.",
+          "keywords": "\"color coded lyrics\" jaguchi jaeguchi \"color coded\" kpop bts exo blackpink twice got7 seventeen ikon winner \"red velvet\"",
+          "defaultTab": "Featured",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "featuredChannelsTitle": "Featured Channel",
+          "unsubscribedTrailer": "HgcWpfm1Zq4",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/IF0klihMvMcy3Ce5X9XOphYwclcjuIRZem8U-F29S1WKVVYk0cVNSqPoP_Q1OOTLZ9CabwjG"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "SgBPbbk1USb9tZgLBHxoMo6ZVOc",
+      "id": "UC3SyT4_WLHzN7JmHQwKQZww",
+      "snippet": {
+        "title": "이지금 [IU Official]",
+        "description": "아이유(IU) Official YouTube Channel",
+        "customUrl": "dlwlrma",
+        "publishedAt": "2017-02-13T06:00:29Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhmeHHu62xly7TKx4vVXSpnoc6d-xUuzOsJpn9piA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhmeHHu62xly7TKx4vVXSpnoc6d-xUuzOsJpn9piA=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhmeHHu62xly7TKx4vVXSpnoc6d-xUuzOsJpn9piA=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "이지금 [IU Official]",
+          "description": "아이유(IU) Official YouTube Channel"
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UU3SyT4_WLHzN7JmHQwKQZww"
+        }
+      },
+      "statistics": {
+        "viewCount": "256799860",
+        "subscriberCount": "5310000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "108"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "이지금 [IU Official]",
+          "description": "아이유(IU) Official YouTube Channel",
+          "keywords": "아이유 IU 이지은 로엔 이지금 dlwlrma 이담 edam EDAM \"edam entertainment\" 이담엔터테인먼트 iu palette 팔레트 에잇 eight bluming 블루밍 삐삐 bbibbi 밤편지 마음",
+          "defaultTab": "Featured",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "sAbU4fAqjZk",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/u7uqrsz7V2M5Jv0nMGKg0esYk56ppa_L86jrmPRPE_P6rhZ5SKMPdkKvp4e59SVCv0aEid3Swc8"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "mVjy2FDWH2rMi7ApIr_dY8nJYhI",
+      "id": "UCOmHUn--16B90oW2L6FRR3A",
+      "snippet": {
+        "title": "BLACKPINK",
+        "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사",
+        "customUrl": "blackpinkofficial",
+        "publishedAt": "2016-06-29T03:15:23Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "BLACKPINK",
+          "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사"
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUOmHUn--16B90oW2L6FRR3A"
+        }
+      },
+      "statistics": {
+        "viewCount": "14988716625",
+        "subscriberCount": "57100000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "336"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "BLACKPINK",
+          "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사",
+          "keywords": "\"YG Entertainment\" YG 와이지 K-pop BLACKPINK 블랙핑크 블핑 제니 로제 리사 지수 Lisa Jisoo Jennie Rosé BLINK 블링크",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-40059621-22",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "LGkUW5cUPz8",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/MaSBOt9K5FI412qbHV9V7LExXnVRWJEelXlnT4pAKR0ho7lSjXW8I3WDmvt11Ep8eZKgR5vvKA"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "UslH_oTUdr5iITwP1t8jhiwgLXM",
+      "id": "UC3IZKseVpdzPSBaWxBxundA",
+      "snippet": {
+        "title": "Big Hit Labels",
+        "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION.",
+        "customUrl": "bighitlabels",
+        "publishedAt": "2008-06-04T08:23:22Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwni_GxAz9AH8OLOBjqZEjjJ5PAR6xsPbdT-eHcFt=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Big Hit Labels",
+          "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION."
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UU3IZKseVpdzPSBaWxBxundA"
+        }
+      },
+      "statistics": {
+        "viewCount": "14473749710",
+        "subscriberCount": "50900000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "525"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Big Hit Labels",
+          "description": "Welcome to the official YouTube channel of Big Hit Labels, the content hub for Big Hit Entertainment, SOURCE MUSIC, BELIFT, and PLUS GLOBAL AUDITION.",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-115776202-1",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "RuGE7rhuT14",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/RzAq8-UqHqR5o6ztQcABgAlD3d2olppGEJSl27jw8yhuGPe34h00tqUhcVTOZxW1wfzgfj7TBHQ"
+        }
+      },
+      "contentOwnerDetails": {}
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "AAaw0zPP9olE97zbGqkdIX085Dc",
+      "id": "UCLkAepWjdylmXSltofFvsYQ",
+      "snippet": {
+        "title": "BANGTANTV",
+        "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS.",
+        "publishedAt": "2012-12-17T03:20:38Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "BANGTANTV",
+          "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS."
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UULkAepWjdylmXSltofFvsYQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "6765112190",
+        "subscriberCount": "44600000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1406"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "BANGTANTV",
+          "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS.",
+          "keywords": "BTS 방탄 방탄소년단 빅히트 BANGTAN",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-116754688-1",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "-5q5mZbe3V8",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/HfnAF1MNjQ5fL42FUsNPSA1f-zUPwYEJhinMTNf0dsEj5A01uO-PsVPpcG_eVNJ9AtlbSaOY"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ]
+}

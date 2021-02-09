@@ -1,0 +1,77 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "dh7WFbRs1eVUCTTilTYaRINTWIX",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "YWrk9X1LZYzH0nceRYsovM-Kt4w",
+      "id": "UCIcXK1CI8URMIqNO_1cehiQ",
+      "snippet": {
+        "title": "AKMU",
+        "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현",
+        "publishedAt": "2014-03-13T09:02:56Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhTTXsUeTQlltiqdyZ2O1jNsQkR7RI-kBpMuputGw=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "AKMU",
+          "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUIcXK1CI8URMIqNO_1cehiQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "439651794",
+        "subscriberCount": "2250000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "119"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "AKMU",
+          "description": "Akdong Musician (AKMU) Official YouTube Channel\n악동뮤지션 공식 유튜브 채널입니다.\n\nLEE CHANHYUK, LEE SUHYUN\n이찬혁, 이수현",
+          "keywords": "\"YG Entertainment\" YG 와이지 K-pop 악동뮤지션 악뮤 \"AKDONG MUSICIAN\" AKMU 이찬혁 이수현 \"Lee Chanhyuk\" \"Lee Suhyun\" 찬혁 수현 Chanhyuk Suhyun",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-40059621-16",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "wgVyY-snqd4",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/dlgSJG0sckhiJXHulqPLfICEmgnemujdT6Z68hRz-jAARMksCYdHKi8gMtK-q9kKeoGiJiIs2w"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -3,25 +3,25 @@ const relatedVideoBox = document.querySelector("#related-video-list");
 const API_BASE_URL = "https://www.googleapis.com/youtube/v3";
 const API_KEY = "PUT-YOUR-API-KEY";
 
-const DEBUG = true;
+const DEMO = true;
 
 async function getRelatedVideos(videoId) {
     const searchListQuery = `${API_BASE_URL}/search?key=${API_KEY}&part=snippet&relatedToVideoId=${videoId}&type=video&maxResults=10`;
-    const searchListResponse = await fetch(DEBUG ? "debug/search-list.json" : searchListQuery);
+    const searchListResponse = await fetch(DEMO ? `demo/search-list/${videoId}.json` : searchListQuery);
     const searchList = await searchListResponse.json();
     const filteredItems = searchList.items.filter(item => "snippet" in item);
 
     const videoIds = filteredItems.map(item => item.id.videoId).join('%2C');
     const videosListQuery = `${API_BASE_URL}/videos?key=${API_KEY}&part=statistics%2CcontentDetails&id=${videoIds}`;
-    const videosListResponsePromise = fetch(DEBUG ? "debug/videos-list.json" : videosListQuery);
+    const videosListResponsePromise = fetch(DEMO ? `demo/videos-list/all.json` : videosListQuery);
 
     const channelIds = filteredItems.map(item => item.snippet.channelId).join('%2C');
     const channelsListQuery = `${API_BASE_URL}/channels?key=${API_KEY}&part=snippet&id=${channelIds}`;
-    const channelsListResponsePromise = fetch(DEBUG ? "debug/channels-list.json" : channelsListQuery);
+    const channelsListResponsePromise = fetch(DEMO ? `demo/channels-list/all.json` : channelsListQuery);
 
     const videosListResponse = await videosListResponsePromise;
     const channelsListResponse = await channelsListResponsePromise;
-    
+
     const videosList = await videosListResponse.json();
     const videosMap = new Map(
         videosList.items.map(item => [
@@ -40,7 +40,7 @@ async function getRelatedVideos(videoId) {
             }
         ])
     );
-    
+
     const relatedVideos = filteredItems.map(item => {
         const videoId = item.id.videoId;
         const channelId = item.snippet.channelId;
@@ -140,7 +140,7 @@ function createRelatedVideoHtml({
                         </div>
                         <div class="view-upload">
                             <div class="channel-name">${channelTitle}</div>
-                            <span class="active">ㆍ</span> 
+                            <span class="active">ㆍ</span>
                             <div class="active-block">
                                 <div class="view-count">조회수 ${convertViewCount(viewCount)}회</div>
                                 ㆍ

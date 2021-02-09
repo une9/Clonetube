@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "fCBTWtbfG5mK6rbERiFVsRVuv0c",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "70vmFnGwUVtzGQYsTdg-IbPNNc4",
+      "id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+      "snippet": {
+        "title": "1theK (원더케이)",
+        "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com",
+        "customUrl": "1thek",
+        "publishedAt": "2011-01-31T07:04:16Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjdhlVHRCeQIRXQI9WIfFtFV7z46CpSpKMRV6PYthk=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "1theK (원더케이)",
+          "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUweOkPb1wVVH0Q0Tlj4a5Pw"
+        }
+      },
+      "statistics": {
+        "viewCount": "18855648618",
+        "subscriberCount": "21900000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "13867"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "1theK (원더케이)",
+          "description": "\"K-pop Wonderland\" 1theK\n\nK-pop을 이끄는 국내 최고 아티스트들의 뮤직비디오부터,\n전 세계 팬들이 보고, 듣고, 참여할 수 있는 오리지널 컨텐츠들까지!\n1theK에서 가장 빠르게 만나보세요! :)\n\n\nWelcome to the official YouTube page of \"K-pop Wonderland\" 1theK\nEnjoy the leading K-Pop artists’ M/Vs, teasers and more exclusive originals for the K-pop fans all over the world on 1theK! \nStay tuned for the latest updates!\n\n\n*Business contact : 1theK.ad@kakao-m.com",
+          "keywords": "1theK 원더케이 로엔 로엔엔터테인먼트 아이유 멜론 IU loen loenentertainment melon 우주소녀 더보이즈 THEBOYZ",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-48720527-3",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "MqzXSniTyMo",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/QA57Y2qCAjRvscNzfOn3sKgEvcW-G83uVhng8LQDQbzV-SFNnnvcYNu4P3C8lJyIWiYUI12vLQ"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

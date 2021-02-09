@@ -1,0 +1,81 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "ghuRjxsSUrGVuy0RTmVmigPAMVv",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "mVjy2FDWH2rMi7ApIr_dY8nJYhI",
+      "id": "UCOmHUn--16B90oW2L6FRR3A",
+      "snippet": {
+        "title": "BLACKPINK",
+        "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사",
+        "customUrl": "blackpinkofficial",
+        "publishedAt": "2016-06-29T03:15:23Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjEDJWYaIksia0vpqmF1_jPxZz4oYeNnPG6zs-IBw=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "BLACKPINK",
+          "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사"
+        },
+        "country": "KR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUOmHUn--16B90oW2L6FRR3A"
+        }
+      },
+      "statistics": {
+        "viewCount": "14988716625",
+        "subscriberCount": "57100000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "336"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "BLACKPINK",
+          "description": "BLACKPINK Official YouTube Channel\n블랙핑크 공식 유튜브 채널입니다.\n\nJISOO, JENNIE, ROSÉ, LISA\n지수, 제니, 로제, 리사",
+          "keywords": "\"YG Entertainment\" YG 와이지 K-pop BLACKPINK 블랙핑크 블핑 제니 로제 리사 지수 Lisa Jisoo Jennie Rosé BLINK 블링크",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-40059621-22",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "LGkUW5cUPz8",
+          "profileColor": "#000000",
+          "country": "KR"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/MaSBOt9K5FI412qbHV9V7LExXnVRWJEelXlnT4pAKR0ho7lSjXW8I3WDmvt11Ep8eZKgR5vvKA"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
