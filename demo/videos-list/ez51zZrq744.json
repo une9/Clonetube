@@ -1,0 +1,111 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "0ZLlP56dJlcy7ddMuOgClqIDmIH",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "j_t28ce2ofbhRUzvML65bIBLG-c",
+      "id": "ez51zZrq744",
+      "snippet": {
+        "publishedAt": "2020-07-08T08:00:11Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "블랙핑크 스페셜 ★'마지막처럼 '부터 'How You Like That'까지★ (23분 무대 모음)",
+        "description": "** MBC에서의 무대가 없는 곡은 영상에 포함되지 않을 수 있습니다.\n\n#블랙핑크 #BLACKPINK #HISDOLY #마지막처럼부터_How_You_Like_That까지\n\n▼IN ORDER▼\n\n00:18 마지막처럼(AS IF IT'S YOUR LAST)\n03:50 뚜두뚜두 (DDU-DU DDU-DU)\n07:17 Forever Young\n11:10 SOLO - JENNIE\n13:58 Don't Know What To Do\n17:16 Kill This Love\n20:28 How You Like That",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "tags": [
+          "mbc",
+          "KPOP",
+          "dance",
+          "song",
+          "korea",
+          "korean",
+          "show",
+          "music core",
+          "live",
+          "stage",
+          "girl",
+          "boy",
+          "idol",
+          "한류",
+          "korean wave",
+          "ingigayo",
+          "show champion",
+          "mnet",
+          "엠넷",
+          "music bank",
+          "블랙핑크",
+          "blackpink",
+          "how you like that"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "블랙핑크 스페셜 ★'마지막처럼 '부터 'How You Like That'까지★ (23분 무대 모음)",
+          "description": "** MBC에서의 무대가 없는 곡은 영상에 포함되지 않을 수 있습니다.\n\n#블랙핑크 #BLACKPINK #HISDOLY #마지막처럼부터_How_You_Like_That까지\n\n▼IN ORDER▼\n\n00:18 마지막처럼(AS IF IT'S YOUR LAST)\n03:50 뚜두뚜두 (DDU-DU DDU-DU)\n07:17 Forever Young\n11:10 SOLO - JENNIE\n13:58 Don't Know What To Do\n17:16 Kill This Love\n20:28 How You Like That"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT23M39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6956986",
+        "likeCount": "179895",
+        "dislikeCount": "3035",
+        "favoriteCount": "0",
+        "commentCount": "5576"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/ez51zZrq744\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "localizations": {
+        "en": {
+          "title": "BLACKPINK Special ★Since 'AS IF IT'S YOUR LAST' to 'How You Like That'★ (23m Stage Compilation)",
+          "description": ""
+        },
+        "ko": {
+          "title": "블랙핑크 스페셜 ★'마지막처럼 '부터 'How You Like That'까지★ (23분 무대 모음)",
+          "description": "** MBC에서의 무대가 없는 곡은 영상에 포함되지 않을 수 있습니다.\n\n#블랙핑크 #BLACKPINK #HISDOLY #마지막처럼부터_How_You_Like_That까지\n\n▼IN ORDER▼\n\n00:18 마지막처럼(AS IF IT'S YOUR LAST)\n03:50 뚜두뚜두 (DDU-DU DDU-DU)\n07:17 Forever Young\n11:10 SOLO - JENNIE\n13:58 Don't Know What To Do\n17:16 Kill This Love\n20:28 How You Like That"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

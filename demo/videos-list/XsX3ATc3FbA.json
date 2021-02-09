@@ -1,0 +1,98 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "jaRYIlwP75My1WLZ7UecX733Ngd",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "FuAn0V5sB7bNcNbX8PRVccaSQ5Q",
+      "id": "XsX3ATc3FbA",
+      "snippet": {
+        "publishedAt": "2019-04-12T09:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV",
+        "description": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)' Official MV\n\n\nCredits:\nDirector : YongSeok Choi (Lumpens)\nAssistant Director : Guzza, Jihye Yoon, HyeJeong Park (Lumpens)\nDirector of Photography : HyunWoo Nam (GDW)\nGaffer : HyunSuk Song (Real lighting)\nArt Director : JinSil Park, BoNa Kim (MU:E)\nAssistant Art Team : YeMin Ahn, lee hyun seoung ,GyuHee Kim (MU:E)\nArt PD : il ho heo\nTechno Crane : Haksong Lee (Service Vision)\nShow Light : SungKeun Ma (A&T light)\n\nVisual Creative : Kim Sung Hyun, Lee Sun Kyoung, Kim Ga Eun, Lee Hye Ri \nChoreography : Son Sungdeuk, Quick Crew \nPerformance Directing: Son Sungdeuk, Lee Byungeun, Lee Doohwan \nArtist Management : Kim Shin Gyu, Kim Se Jin, Kim Dae Young, Kim Su Bin, Bang Min Wook, Lee Jung Min, An Da Sol, Park Jun Tae\n\n\n\nBigHit Entertainment. All rights reserved. \nUnauthorized reproduction is a violation of applicable laws. \nManufactured by BigHit Entertainment, Seoul, Korea.\n\nConnect with BTS:\nhttps://www.bighitcorp.com/\nhttp://twitter.com/BTS_bighit \nhttp://twitter.com/BTS_twt \nhttps://www.facebook.com/ibighit/\nhttp://www.facebook.com/bangtan.official\nhttp://instagram.com/BTS.bighitofficial\nhttp://weibo.com/BTSbighit\n\n\n#BTS #방탄소년단 #작은것들을위한시 #BoyWithLuv #MAP_OF_THE_SOUL_PERSONA #MV #Halsey #할시",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Big Hit Labels",
+        "tags": [
+          "BIGHIT",
+          "빅히트",
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "방탄",
+          "작은 것들을 위한 시",
+          "Boy With Luv",
+          "Halsey",
+          "할시",
+          "Map Of The Soul",
+          "Persona",
+          "맵오브더소울",
+          "페르소나"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV",
+          "description": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)' Official MV\n\n\nCredits:\nDirector : YongSeok Choi (Lumpens)\nAssistant Director : Guzza, Jihye Yoon, HyeJeong Park (Lumpens)\nDirector of Photography : HyunWoo Nam (GDW)\nGaffer : HyunSuk Song (Real lighting)\nArt Director : JinSil Park, BoNa Kim (MU:E)\nAssistant Art Team : YeMin Ahn, lee hyun seoung ,GyuHee Kim (MU:E)\nArt PD : il ho heo\nTechno Crane : Haksong Lee (Service Vision)\nShow Light : SungKeun Ma (A&T light)\n\nVisual Creative : Kim Sung Hyun, Lee Sun Kyoung, Kim Ga Eun, Lee Hye Ri \nChoreography : Son Sungdeuk, Quick Crew \nPerformance Directing: Son Sungdeuk, Lee Byungeun, Lee Doohwan \nArtist Management : Kim Shin Gyu, Kim Se Jin, Kim Dae Young, Kim Su Bin, Bang Min Wook, Lee Jung Min, An Da Sol, Park Jun Tae\n\n\n\nBigHit Entertainment. All rights reserved. \nUnauthorized reproduction is a violation of applicable laws. \nManufactured by BigHit Entertainment, Seoul, Korea.\n\nConnect with BTS:\nhttps://www.bighitcorp.com/\nhttp://twitter.com/BTS_bighit \nhttp://twitter.com/BTS_twt \nhttps://www.facebook.com/ibighit/\nhttp://www.facebook.com/bangtan.official\nhttp://instagram.com/BTS.bighitofficial\nhttp://weibo.com/BTSbighit\n\n\n#BTS #방탄소년단 #작은것들을위한시 #BoyWithLuv #MAP_OF_THE_SOUL_PERSONA #MV #Halsey #할시"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT4M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1130457548",
+        "likeCount": "20961086",
+        "dislikeCount": "1167546",
+        "favoriteCount": "0",
+        "commentCount": "6121702"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/XsX3ATc3FbA\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "localizations": {
+        "ko": {
+          "title": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV",
+          "description": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)' Official MV\n\n\nCredits:\nDirector : YongSeok Choi (Lumpens)\nAssistant Director : Guzza, Jihye Yoon, HyeJeong Park (Lumpens)\nDirector of Photography : HyunWoo Nam (GDW)\nGaffer : HyunSuk Song (Real lighting)\nArt Director : JinSil Park, BoNa Kim (MU:E)\nAssistant Art Team : YeMin Ahn, lee hyun seoung ,GyuHee Kim (MU:E)\nArt PD : il ho heo\nTechno Crane : Haksong Lee (Service Vision)\nShow Light : SungKeun Ma (A&T light)\n\nVisual Creative : Kim Sung Hyun, Lee Sun Kyoung, Kim Ga Eun, Lee Hye Ri \nChoreography : Son Sungdeuk, Quick Crew \nPerformance Directing: Son Sungdeuk, Lee Byungeun, Lee Doohwan \nArtist Management : Kim Shin Gyu, Kim Se Jin, Kim Dae Young, Kim Su Bin, Bang Min Wook, Lee Jung Min, An Da Sol, Park Jun Tae\n\n\n\nBigHit Entertainment. All rights reserved. \nUnauthorized reproduction is a violation of applicable laws. \nManufactured by BigHit Entertainment, Seoul, Korea.\n\nConnect with BTS:\nhttps://www.bighitcorp.com/\nhttp://twitter.com/BTS_bighit \nhttp://twitter.com/BTS_twt \nhttps://www.facebook.com/ibighit/\nhttp://www.facebook.com/bangtan.official\nhttp://instagram.com/BTS.bighitofficial\nhttp://weibo.com/BTSbighit\n\n\n#BTS #방탄소년단 #작은것들을위한시 #BoyWithLuv #MAP_OF_THE_SOUL_PERSONA #MV #Halsey #할시"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

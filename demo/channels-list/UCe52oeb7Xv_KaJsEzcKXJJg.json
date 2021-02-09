@@ -1,0 +1,77 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "0LyqMTNyNkFPw4VJ9i2CjSy37Sh",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "PMzucxgUI6SzsJ4Gie2Dy6FXEas",
+      "id": "UCe52oeb7Xv_KaJsEzcKXJJg",
+      "snippet": {
+        "title": "MBCkpop",
+        "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!",
+        "publishedAt": "2011-12-14T08:08:18Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnh8a4Y2P98vF8ndFf8mAcoRsKOCxWKp_LIe5hDPsA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MBCkpop",
+          "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUe52oeb7Xv_KaJsEzcKXJJg"
+        }
+      },
+      "statistics": {
+        "viewCount": "6784813591",
+        "subscriberCount": "9070000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "39451"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MBCkpop",
+          "description": "Welcome to the official YouTube page of MBC, MBC Kpop\nEnjoy \"Show! Music Core\" the hottest K-pop program and the essence of live music on \"The Masked Singer\". Subscribe and stay tuned for the latest updates!",
+          "keywords": "mbc kpop music \"korean pop\"",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-31611779-1",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "EZ6AdkswEaM",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/RAuFTdl8eZA_YVNPF2iqy_7R8FRKcsJwHWYPpuglep9KM4JZDBOfDn4DRwJADsFtmtB1ECJnnA"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

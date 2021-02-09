@@ -1,0 +1,101 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "kCWSei7kvucbZr5ZI9aw8xxJSjy",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "l6TnLY-XqzYSTMDA1yPFnXjaSSQ",
+      "id": "CN4fffh7gmk",
+      "snippet": {
+        "publishedAt": "2020-09-02T10:00:01Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "[CHOREOGRAPHY] BTS (방탄소년단) 'Dynamite' Dance Practice",
+        "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CN4fffh7gmk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CN4fffh7gmk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CN4fffh7gmk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CN4fffh7gmk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CN4fffh7gmk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "tags": [
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "HIPHOP",
+          "알엠",
+          "RM",
+          "슈가",
+          "SUGA",
+          "제이홉",
+          "jhope",
+          "지민",
+          "JIMIN",
+          "뷔",
+          "정국",
+          "JUNGKOOK",
+          "진",
+          "JIN"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[CHOREOGRAPHY] BTS (방탄소년단) 'Dynamite' Dance Practice",
+          "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT3M26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "78106273",
+        "likeCount": "3985989",
+        "dislikeCount": "46983",
+        "favoriteCount": "0",
+        "commentCount": "147489"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/CN4fffh7gmk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "localizations": {
+        "ko": {
+          "title": "[CHOREOGRAPHY] BTS (방탄소년단) 'Dynamite' Dance Practice",
+          "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

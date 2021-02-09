@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "7oS98psvy6LA9T0o2YrXwdYQ0nL",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "dgkvjhipPsG7qUP6-BWWl3kq9nE",
+      "id": "UCxAICW_LdkfFYwTqTHHE0vg",
+      "snippet": {
+        "title": "MTV",
+        "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come.",
+        "customUrl": "mtv",
+        "publishedAt": "2005-11-22T12:42:46Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnhpDLOGEsbM1Sxp5jSdaDfbOS6lZxNkTHJjuoHo44c=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MTV",
+          "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UUxAICW_LdkfFYwTqTHHE0vg"
+        }
+      },
+      "statistics": {
+        "viewCount": "2126594229",
+        "subscriberCount": "8600000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "4740"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MTV",
+          "description": "This is the official YouTube page for MTV! Check out performances from VMAs, digital series \"Animal Style\" and more to come.",
+          "keywords": "MTV MTVnews \"MTV news\" MTVu MTVother MTV(other) series movies music news \"Teen Wolf\" Scream \"Faking It\" Catfish VMA \"Teen Mom\" \"Jersey Shore\" Entertainment \"Video Music Awards\" \"Movie Awards\" \"TV Awards\" \"Reality TV\" \"Pop Culture\" \"The Challenge\"",
+          "defaultTab": "Featured",
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "bYkhEdZeGFg",
+          "profileColor": "#000000",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/xyfPvYyt9kQOsIbD3v10aIo2GsRh-1NFJH3NBEiIAqwEKfp6CQiAmXxQrcWEkL_C1eSu510ntg"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "oIGiuP39ZiBKErSwoFaiz3hd1hP",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "ts_kdTPllZ7cyoctBoxVHWY0OSU",
+      "id": "-5q5mZbe3V8",
+      "snippet": {
+        "publishedAt": "2020-11-20T04:58:11Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) 'Life Goes On' Official MV",
+        "description": "BTS (방탄소년단) 'Life Goes On' Official MV\n\n\nCredits:\nDirector: Jeon Jung Kook\nAssistant Director: Yong Seok Choi, Jihye Yoon (Lumpens)\n\nPhoto: Nu Kim\n\nDirector of Photography: Hyunwoo Nam (GDW)\nFocus Puller: Sangwoo Yun\n2nd AC: Eunki Kim\n3rd AC: Kyuwon Seo\n\nGaffer: Choi Doo Soo (DS LIGHT)\nLighting Crew: Jung Yu Jin, Kim Jun O, Lee Seong Min, Kim Sung Wook, Lee Hyunsu\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art Team: Yeri Kang, Minjung Kim (MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nVisual Creative: Nu Kim, Sabinne Cheon, Lee Sun Kyoung, Kim Ga Eun, Cha Yeon Hwa\nArtist Management: Kim Shin Gyu, Kim Su Bin, Kim Dae Young, Park Jun Tae, An Da Sol, Ahn Jong Hun, Yun Tae Woong, Lee Seung Byeong, Lee Jung Min, Lee Hyeon Ki\n\n\nBig Hit Entertainment. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by Big Hit Entertainment, Seoul, Korea.\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n#BTS #방탄소년단 #LifeGoesOn #BTS_BE #MV",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Big Hit Labels",
+        "tags": [
+          "BIGHIT",
+          "빅히트",
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "방탄"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "BTS (방탄소년단) 'Life Goes On' Official MV",
+          "description": "BTS (방탄소년단) 'Life Goes On' Official MV\n\n\nCredits:\nDirector: Jeon Jung Kook\nAssistant Director: Yong Seok Choi, Jihye Yoon (Lumpens)\n\nPhoto: Nu Kim\n\nDirector of Photography: Hyunwoo Nam (GDW)\nFocus Puller: Sangwoo Yun\n2nd AC: Eunki Kim\n3rd AC: Kyuwon Seo\n\nGaffer: Choi Doo Soo (DS LIGHT)\nLighting Crew: Jung Yu Jin, Kim Jun O, Lee Seong Min, Kim Sung Wook, Lee Hyunsu\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art Team: Yeri Kang, Minjung Kim (MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nVisual Creative: Nu Kim, Sabinne Cheon, Lee Sun Kyoung, Kim Ga Eun, Cha Yeon Hwa\nArtist Management: Kim Shin Gyu, Kim Su Bin, Kim Dae Young, Park Jun Tae, An Da Sol, Ahn Jong Hun, Yun Tae Woong, Lee Seung Byeong, Lee Jung Min, Lee Hyeon Ki\n\n\nBig Hit Entertainment. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by Big Hit Entertainment, Seoul, Korea.\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n#BTS #방탄소년단 #LifeGoesOn #BTS_BE #MV"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M51S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "261176627",
+        "likeCount": "13421428",
+        "dislikeCount": "200316",
+        "favoriteCount": "0",
+        "commentCount": "4929224"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/-5q5mZbe3V8\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "localizations": {
+        "ko": {
+          "title": "BTS (방탄소년단) 'Life Goes On' Official MV",
+          "description": "BTS (방탄소년단) 'Life Goes On' Official MV\n\n\nCredits:\nDirector: Jeon Jung Kook\nAssistant Director: Yong Seok Choi, Jihye Yoon (Lumpens)\n\nPhoto: Nu Kim\n\nDirector of Photography: Hyunwoo Nam (GDW)\nFocus Puller: Sangwoo Yun\n2nd AC: Eunki Kim\n3rd AC: Kyuwon Seo\n\nGaffer: Choi Doo Soo (DS LIGHT)\nLighting Crew: Jung Yu Jin, Kim Jun O, Lee Seong Min, Kim Sung Wook, Lee Hyunsu\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art Team: Yeri Kang, Minjung Kim (MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nVisual Creative: Nu Kim, Sabinne Cheon, Lee Sun Kyoung, Kim Ga Eun, Cha Yeon Hwa\nArtist Management: Kim Shin Gyu, Kim Su Bin, Kim Dae Young, Park Jun Tae, An Da Sol, Ahn Jong Hun, Yun Tae Woong, Lee Seung Byeong, Lee Jung Min, Lee Hyeon Ki\n\n\nBig Hit Entertainment. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by Big Hit Entertainment, Seoul, Korea.\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n#BTS #방탄소년단 #LifeGoesOn #BTS_BE #MV"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

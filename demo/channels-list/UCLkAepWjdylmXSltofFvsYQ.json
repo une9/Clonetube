@@ -1,0 +1,78 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "u7aUPQDGYnsd1JDa0m8KcYdKk0j",
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "AAaw0zPP9olE97zbGqkdIX085Dc",
+      "id": "UCLkAepWjdylmXSltofFvsYQ",
+      "snippet": {
+        "title": "BANGTANTV",
+        "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS.",
+        "publishedAt": "2012-12-17T03:20:38Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AAUvwnjy4eVbbuGAL8aXp_FuZawSr9FtJIpZnl4skL230g=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "BANGTANTV",
+          "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS."
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "favorites": "",
+          "uploads": "UULkAepWjdylmXSltofFvsYQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "6765112190",
+        "subscriberCount": "44600000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1406"
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "BANGTANTV",
+          "description": "방탄소년단 공식 유튜브 채널 입니다.\nThis is the Official YouTube channel for BTS.",
+          "keywords": "BTS 방탄 방탄소년단 빅히트 BANGTAN",
+          "defaultTab": "Featured",
+          "trackingAnalyticsAccountId": "UA-116754688-1",
+          "moderateComments": true,
+          "showRelatedChannels": true,
+          "showBrowseView": true,
+          "unsubscribedTrailer": "-5q5mZbe3V8",
+          "profileColor": "#000000"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.ggpht.com/HfnAF1MNjQ5fL42FUsNPSA1f-zUPwYEJhinMTNf0dsEj5A01uO-PsVPpcG_eVNJ9AtlbSaOY"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

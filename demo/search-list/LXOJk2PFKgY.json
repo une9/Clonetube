@@ -1,0 +1,530 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "9VN4rlcczwktTbtbqAe3mKh0ZtY",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 7,
+    "resultsPerPage": 7
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IEQw65GqRktQQ8firkY23pXOuR0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ez51zZrq744"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-08T08:00:11Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "블랙핑크 스페셜 ★'마지막처럼 '부터 'How You Like That'까지★ (23분 무대 모음)",
+        "description": "** MBC에서의 무대가 없는 곡은 영상에 포함되지 않을 수 있습니다.\n\n#블랙핑크 #BLACKPINK #HISDOLY #마지막처럼부터_How_You_Like_That까지\n\n▼IN ORDER▼\n\n00:18 마지막처럼(AS IF IT'S YOUR LAST)\n03:50 뚜두뚜두 (DDU-DU DDU-DU)\n07:17 Forever Young\n11:10 SOLO - JENNIE\n13:58 Don't Know What To Do\n17:16 Kill This Love\n20:28 How You Like That",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ez51zZrq744/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "tags": [
+          "mbc",
+          "KPOP",
+          "dance",
+          "song",
+          "korea",
+          "korean",
+          "show",
+          "music core",
+          "live",
+          "stage",
+          "girl",
+          "boy",
+          "idol",
+          "한류",
+          "korean wave",
+          "ingigayo",
+          "show champion",
+          "mnet",
+          "엠넷",
+          "music bank",
+          "블랙핑크",
+          "blackpink",
+          "how you like that"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "블랙핑크 스페셜 ★'마지막처럼 '부터 'How You Like That'까지★ (23분 무대 모음)",
+          "description": "** MBC에서의 무대가 없는 곡은 영상에 포함되지 않을 수 있습니다.\n\n#블랙핑크 #BLACKPINK #HISDOLY #마지막처럼부터_How_You_Like_That까지\n\n▼IN ORDER▼\n\n00:18 마지막처럼(AS IF IT'S YOUR LAST)\n03:50 뚜두뚜두 (DDU-DU DDU-DU)\n07:17 Forever Young\n11:10 SOLO - JENNIE\n13:58 Don't Know What To Do\n17:16 Kill This Love\n20:28 How You Like That"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SizW4Kt7uOlevFFBPbd5CqfgmV2",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D1PvIWdJ8xo"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-18T09:00:02Z",
+        "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+        "title": "[MV] IU(아이유) _ Blueming(블루밍)",
+        "description": "[MV] IU(아이유) _ Blueming\n\n\n🔈1theK가 제작한 '1theK Originals-원더케이 오리지널' 채널이 오픈되었습니다:) 많은 관심과 구독 부탁드려요😉\nNEW YouTube Channel '1theK Originals' has been launched! Please take a lot of interest and SUBSCRIBE!\nSubscribe👉 https://www.youtube.com/1theKOriginals?sub_confirmation=1\n\n*English subtitles are now available. :D\n(Please click on 'CC' button or activate 'Interactive Transcript' function)\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#IU#아이유#Blueming#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK Originals : http://www.youtube.com/1theKOriginals\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D1PvIWdJ8xo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D1PvIWdJ8xo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D1PvIWdJ8xo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D1PvIWdJ8xo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D1PvIWdJ8xo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "1theK (원더케이)",
+        "tags": [
+          "K-POP",
+          "Kpop",
+          "1theK",
+          "원더케이",
+          "Original",
+          "1theK Original",
+          "TOP100",
+          "idol",
+          "아이돌",
+          "라이브",
+          "LIVE",
+          "멜론",
+          "원더케이 오리지널",
+          "음악",
+          "IU",
+          "아이유",
+          "Blueming"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "[MV] IU(아이유) _ Blueming(블루밍)",
+          "description": "[MV] IU(아이유) _ Blueming\n\n\n🔈1theK가 제작한 '1theK Originals-원더케이 오리지널' 채널이 오픈되었습니다:) 많은 관심과 구독 부탁드려요😉\nNEW YouTube Channel '1theK Originals' has been launched! Please take a lot of interest and SUBSCRIBE!\nSubscribe👉 https://www.youtube.com/1theKOriginals?sub_confirmation=1\n\n*English subtitles are now available. :D\n(Please click on 'CC' button or activate 'Interactive Transcript' function)\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드�� MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#IU#아이유#Blueming#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK Originals : http://www.youtube.com/1theKOriginals\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oZpA7UZmiUZ3ouJ4pZN4mqt06t2",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3iM_06QeZi8"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-21T08:00:02Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[IU] '내 손을 잡아(Hold My Hand)' Live Clip (2019 IU Tour Concert 'Love, poem')",
+        "description": "[IU] '내 손을 잡아(Hold My Hand)' Live Clip (2019 IU Tour Concert 'Love, poem')\n\n* 이 노래와 뒤늦게 사랑에 빠지신 많은 분들을 위해 라이브 영상을 드립니다.\n아이유의 공식적인 첫 자작곡 ‘내 손을 잡아’와 사랑에 빠져보세요❤\n\n* We give you this live video who fell in love with this song lately. You should fall in love with 'Hold My Hand', IU's first official own-made song❤\n\n\n#IU #아이유 #dlwlrma",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3iM_06QeZi8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3iM_06QeZi8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3iM_06QeZi8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3iM_06QeZi8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3iM_06QeZi8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "tags": [
+          "IU",
+          "아이유",
+          "이담",
+          "EDAM",
+          "이지금",
+          "dlwlrma",
+          "아이유tv",
+          "아티비",
+          "아이유티비",
+          "아이유의팔레트",
+          "팔레트",
+          "분홍신",
+          "너랑나",
+          "집콕시그널",
+          "집콕",
+          "하루끝",
+          "에잇",
+          "삐삐",
+          "Palette",
+          "가을아침",
+          "금요일에만나요",
+          "비밀의화원",
+          "블루밍",
+          "내손을잡아",
+          "스물셋",
+          "너의의미",
+          "무릎",
+          "밤편지",
+          "소격동",
+          "시간의바깥",
+          "좋은날",
+          "러브포엠",
+          "Love Poem",
+          "Through The Nigh",
+          "BBIBBI",
+          "Blueming",
+          "Red Queen",
+          "Friday",
+          "unlucky",
+          "이지은",
+          "넷플릭스",
+          "나의아저씨",
+          "호텔델루나",
+          "장만월",
+          "hold my hand",
+          "라이브",
+          "라이브클립",
+          "live clip"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[IU] '내 손을 잡아(Hold My Hand)' Live Clip (2019 IU Tour Concert 'Love, poem')",
+          "description": "[IU] '내 손을 잡아(Hold My Hand)' Live Clip (2019 IU Tour Concert 'Love, poem')\n\n* 이 노래와 뒤늦게 사랑에 빠지신 많은 분들을 위해 라이브 영상을 드립니다.\n아이유의 공식적인 첫 자작곡 ‘내 손을 잡아’와 사랑에 빠져보세요❤\n\n* We give you this live video who fell in love with this song lately. You should fall in love with 'Hold My Hand', IU's first official own-made song❤\n\n\n#IU #아이유 #dlwlrma"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vd41rWn8iLtWszO4AJPPoAC2JFV",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LXOJk2PFKgY"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-12T11:34:23Z",
+        "channelId": "UCmth4hMyizG-_W9jidBqs_A",
+        "title": "BTS (방탄소년단) - Mikrokosmos (소우주) (Color Coded Lyrics Eng/Rom/Han/가사)",
+        "description": "All Rights Administered by BigHit Entertainment\n\n• Artist: BTS (방탄소년단)\n• Song: Mikrocosmos (소우주)\n• Album: 'MAP OF THE SOUL: PERSONA'\n• Released: 19.04.12\n\nEngtrans: \n..............................................................................\n\n• Members: Jin, Suga, J-Hope, RM, Jimin, V, Jungkook\n• My bias: Suga\n..............................................................................\n• REQUEST SONG HERE: https://goo.gl/9G5rQx\n• FOLLOW ME: https://www.facebook.com/jaeguchiofficial/\n................................................................................\n\n• No copyright infringement intended / Don't reupload\n\n• TAGS:\nBTS Halsey\nBTS Halsey Boy with luv\nBTS Boy With Luv\nBTS Boy With Luv lyrics\nKill This Love BLACKPINK Lyrics\nKill this love BLACKPINK\nBTS Boy With Luv color coded lyrics\nKill This Love lyrics\nBTS Boy With Luv line distribution\nBTS Boy With Luv english trans\nBTS Boy With Luv mv\nBTS Boy With Luv showcase\nBTS Boy With Luv audio\nBTS Boy With Luv live\nBTS Boy With Luv dance\n防弾少年団 Boy With Luv 日本語字幕\nBTS Mikrokosmos Lyrics\nBTS Make it right Lyrics\nBTS home Lyrics\nBTS Jamais vu lyrics\nBTS Dionysus lyrics\n방탄소년단 작은 것들을 위한 시 가사\n방탄소년단 가사",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LXOJk2PFKgY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LXOJk2PFKgY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LXOJk2PFKgY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LXOJk2PFKgY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LXOJk2PFKgY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Jaeguchi",
+        "tags": [
+          "할시",
+          "방탄소년단",
+          "방탄",
+          "작은 것들을 위한 시",
+          "가사",
+          "bts lyrics",
+          "lyrics",
+          "english",
+          "color coded lyrics",
+          "bts",
+          "jaeguchi",
+          "mikrokosmos",
+          "mikrokosmos lyrics",
+          "mikrokosmos bts",
+          "mikrokosmos lyric"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "BTS (방탄소년단) - Mikrokosmos (소우주) (Color Coded Lyrics Eng/Rom/Han/가사)",
+          "description": "All Rights Administered by BigHit Entertainment\n\n• Artist: BTS (방탄소년단)\n• Song: Mikrocosmos (소우주)\n• Album: 'MAP OF THE SOUL: PERSONA'\n• Released: 19.04.12\n\nEngtrans: \n..............................................................................\n\n• Members: Jin, Suga, J-Hope, RM, Jimin, V, Jungkook\n• My bias: Suga\n..............................................................................\n• REQUEST SONG HERE: https://goo.gl/9G5rQx\n• FOLLOW ME: https://www.facebook.com/jaeguchiofficial/\n................................................................................\n\n• No copyright infringement intended / Don't reupload\n\n• TAGS:\nBTS Halsey\nBTS Halsey Boy with luv\nBTS Boy With Luv\nBTS Boy With Luv lyrics\nKill This Love BLACKPINK Lyrics\nKill this love BLACKPINK\nBTS Boy With Luv color coded lyrics\nKill This Love lyrics\nBTS Boy With Luv line distribution\nBTS Boy With Luv english trans\nBTS Boy With Luv mv\nBTS Boy With Luv showcase\nBTS Boy With Luv audio\nBTS Boy With Luv live\nBTS Boy With Luv dance\n防弾少年団 Boy With Luv 日本語字幕\nBTS Mikrokosmos Lyrics\nBTS Make it right Lyrics\nBTS home Lyrics\nBTS Jamais vu lyrics\nBTS Dionysus lyrics\n방탄소년단 작은 것들을 위한 시 가사\n방탄소년단 가사"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kptJTm8gAT3jGDEZAXDncUttsVY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TgOu00Mf3kI"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-06T09:00:16Z",
+        "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+        "title": "[MV] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS)",
+        "description": "[MV] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS)\n\n\nK-POP Wonderland, 1theK\n\nK-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :)\nWelcome to the official YouTube channel of K-POP Wonderland, 1theK\n\n\"1theK Originals\" Subscribe 👉 https://www.youtube.com/1theKOriginals?sub_confirmation=1\n\n*****\nHello, this is 1theK. We are working on subtitles now!\nPlease come back and watch it again within a few hours.\nThank you for your waiting and continuing interest :)\n*****\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc\n▶1theK TikTok : https://vt.tiktok.com/2mSMBS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TgOu00Mf3kI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TgOu00Mf3kI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TgOu00Mf3kI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TgOu00Mf3kI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TgOu00Mf3kI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "1theK (원더케이)",
+        "tags": [
+          "K-POP",
+          "Kpop",
+          "1theK",
+          "원더케이",
+          "Original",
+          "1theK Original",
+          "TOP100",
+          "idol",
+          "아이돌",
+          "라이브",
+          "LIVE",
+          "멜론",
+          "원더케이 오리지널",
+          "음악",
+          "IU",
+          "아이유",
+          "에잇",
+          "eight",
+          "SUGA",
+          "BTS",
+          "슈가",
+          "방탄소년단"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "[MV] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS)",
+          "description": "[MV] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS)\n\n\nK-POP Wonderland, 1theK\n\nK-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :)\nWelcome to the official YouTube channel of K-POP Wonderland, 1theK\n\n\"1theK Originals\" Subscribe 👉 https://www.youtube.com/1theKOriginals?sub_confirmation=1\n\n*****\nHello, this is 1theK. We are working on subtitles now!\nPlease come back and watch it again within a few hours.\nThank you for your waiting and continuing interest :)\n*****\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc\n▶1theK TikTok : https://vt.tiktok.com/2mSMBS"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oO0gIV8CNMpuQn4F1rPao9OkHFM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m3DZsBw5bnE"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-25T09:00:06Z",
+        "channelId": "UCIcXK1CI8URMIqNO_1cehiQ",
+        "title": "AKMU - '어떻게 이별까지 사랑하겠어, 널 ���랑하는 거지(How can I love the heartbreak, you`re the one I love)' M/V",
+        "description": "AKMU - 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지(How can I love the heartbreak, you`re the one I love)\n\n일부러 몇 발자국 물러나\n내가 없이 혼자 걷는 널 바라본다\n옆자리 허전한 너의 풍경\n흑백 거리 가운데 넌 뒤 돌아본다\n \n그 때 알게 되었어\n난 널 떠날 수 없단 걸\n우리 사이에 그 어떤 힘든 일도\n이별보단 버틸 수 있는 것들이었죠\n \n어떻게 이별까지 사랑하겠어\n널 사랑하는거지\n사랑이라는 이유로 서로를 포기하고\n찢어질 것 같이 아파할 수 없어 난\n \n두 세번 더 길을 돌아갈까\n적막 짙은 도로 위에 걸음을 포갠다\n아무 말 없는 대화 나누며\n주마등이 길을 비춘 먼 곳을 본다\n그 때 알게 되었어\n난 더 갈 수 없단걸\n한 발 한 발 이별에 가까워질 수록\n너와 맞잡은 손이 사라지는 것 같죠\n \n어떻게 이별까지 사랑하겠어\n널 사랑하는 거지\n사랑이라는 이유로 서로를 포기하고\n찢어질 것 같이 아파 할 수 없어 난\n \n어떻게 내가 어떻게 너를\n이 후에 우리 바다처럼 깊은 사랑이\n다 마를 때까지 기다리는 게 이별일텐데\n \n어떻게 내가 어떻게 너를\n이 후에 우리 바���처럼 깊은 사랑이\n다 마를 때까지 기다리는 게 이별일텐데\n\nAvailable on Apple Music @ https://smarturl.it/AKMU_SAILING/applemusic\nAvailable on iTunes @ https://smarturl.it/AKMU_SAILING/itunes\nAvailable on Spotify @ smarturl.it/AKMU_SAILING/spotify\n\nAlbums Available @\nYG SELECT : http://www.ygselect.com/\nYG SELECT China : http://cn.ygselect.com/\nYG SELECT Amazon(JP) : http://bit.ly/yg-amzn-jp\nYG SELECT Amazon(US) : http://bit.ly/yg-amzn-us\nYG SELECT Amazon(UK) : http://bit.ly/yg-amzn-uk\nYG SELECT Qoo10(SG) : https://www.qoo10.sg/shop/ygselect\n\n#AKMU #악뮤 #악동뮤지션 #항해 #SAILING #어떻게이별까지사랑하겠어_널사랑하는거지 #How_can_I_love_the_heartbreak_you_are_the_one_I_love #YG\n\nMore about AKMU @\nhttp://www.yg-akmu.com/\nhttp://www.youtube.com/officialAKMU\nhttps://www.facebook.com/officialAKMU\nhttp://twitter.com/ygent_official",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m3DZsBw5bnE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m3DZsBw5bnE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m3DZsBw5bnE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m3DZsBw5bnE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/m3DZsBw5bnE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "AKMU",
+        "tags": [
+          "YG Entertainment",
+          "YG",
+          "와이지",
+          "K-pop",
+          "악동뮤지션",
+          "악뮤",
+          "AKDONG MUSICIAN",
+          "AKMU",
+          "이찬혁",
+          "이수현",
+          "Lee Chanhyuk",
+          "Lee Suhyun",
+          "찬혁",
+          "수현",
+          "Chanhyuk",
+          "Suhyun",
+          "항해",
+          "악뮤 항해",
+          "SAILING",
+          "AKMU 항해",
+          "AKMU SAILING",
+          "악동뮤지션 항해",
+          "어사널사",
+          "어떻게 이별까지 사랑하겠어 널 사랑하는거지",
+          "악뮤 어사널사"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "AKMU - '어떻게 이별까지 사랑하겠어, 널 사랑하는 거지(How can I love the heartbreak, you`re the one I love)' M/V",
+          "description": "AKMU - 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지(How can I love the heartbreak, you`re the one I love)\n\n일부러 몇 발자국 물러나\n내가 없이 혼자 걷는 널 바라본다\n옆자리 허전한 너의 풍경\n흑백 거리 가운데 넌 뒤 돌아본다\n \n그 때 알게 되었어\n난 널 떠날 수 없단 걸\n우리 사이에 그 어떤 힘든 일도\n이별보단 버틸 수 있는 것들이었죠\n \n어떻게 이별까지 사랑하겠어\n널 사랑하는거지\n사랑이라는 이유로 서로를 포기하고\n찢어질 것 같이 아파할 수 없어 난\n \n두 세번 더 길을 돌아갈까\n적막 짙은 도로 위에 걸음을 포갠다\n아무 말 없는 대화 나누며\n주마등이 길을 비춘 먼 곳을 본다\n그 때 알게 되었어\n난 더 갈 수 없단걸\n한 발 한 발 이별에 가까워질 수록\n너와 맞잡은 손이 사라지는 것 같죠\n \n어떻게 이별까지 사랑하겠어\n널 사랑하는 거지\n사랑이라는 이유로 서로를 포기하고\n찢어질 것 같이 아파 할 수 없어 난\n \n어떻게 내가 어떻게 너를\n이 후에 우리 바다처럼 깊은 사랑이\n다 마를 때까지 기다리는 게 이별일텐데\n \n어떻게 내가 어떻게 너를\n이 후에 우리 바다처럼 깊은 사랑이\n다 마를 때까지 기다리는 게 이별일텐데\n\nAvailable on Apple Music @ https://smarturl.it/AKMU_SAILING/applemusic\nAvailable on iTunes @ https://smarturl.it/AKMU_SAILING/itunes\nAvailable on Spotify @ smarturl.it/AKMU_SAILING/spotify\n\nAlbums Available @\nYG SELECT : http://www.ygselect.com/\nYG SELECT China : http://cn.ygselect.com/\nYG SELECT Amazon(JP) : http://bit.ly/yg-amzn-jp\nYG SELECT Amazon(US) : http://bit.ly/yg-amzn-us\nYG SELECT Amazon(UK) : http://bit.ly/yg-amzn-uk\nYG SELECT Qoo10(SG) : https://www.qoo10.sg/shop/ygselect\n\n#AKMU #악뮤 #악동뮤지션 #항해 #SAILING #어떻게이별까지사랑하겠어_널사랑하는거지 #How_can_I_love_the_heartbreak_you_are_the_one_I_love #YG\n\nMore about AKMU @\nhttp://www.yg-akmu.com/\nhttp://www.youtube.com/officialAKMU\nhttps://www.facebook.com/officialAKMU\nhttp://twitter.com/ygent_official"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YHiTlvgnEvcjPdU5J26c14XOFEq",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gdZLi9oWNZg"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-21T03:58:10Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) 'Dynamite' Official MV",
+        "description": "BTS (방탄소년단) 'Dynamite' Official MV\n\n\nCredits:\nDirector: Yong Seok Choi (Lumpens)\nAssistant Director: Jihye Yoon (Lumpens)\n\nDirector of Photography: Hyunwoo Nam (GDW)\nB Camera Operator: Eumko\nFocus Puller: Sangwoo Yun, Youngwoo Lee\n2nd AC: Eunki Kim\n3rd AC: Kyuwon Seo\nDIT: Eunil Lee\n\nGaffer: Song Hyunsuk\nLighting Crew: Choi Jung Hyun, Hwang Uigyu, Kim Hyun Ju, Park Cheonil, Park Yeonghwan, Yeom Jaehyeok\n\nJimmy Jib Operator: Youngjung Kim\nJimmy Jib Assistant: Hyun in Kim, Sung Hoon Kim\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art Team: Yeri Kang (MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nProducer: Emma Sungeun Kim (GE Production)\nLocation Manager: Ji Hoon Han\n\nVFX STUDIO: PLASTIC BEACH\nVFX Supervisor: Ohzeon\nVFX Assistant Supervisor: Jojeem\nVFX Project Manager: Chanyoung Song, Jieun Jeong\nVFX Producer: Kyutae Jang\n3D Artist: Kwangwon Lee, Doyeon Kim, Jeonghwa Lee, Jiwon Jeon\n2D Artist: Gihoon Jang, Hyunjun Lee\n\nVisual Creative: Nu Kim, Sabinne Cheon, Lee Sun Kyoung, Kim Ga Eun, Jung Su Jung\nBrand Experience Design: Kris Seongmin Gim, Hyeri Lee \nPerformance Directing: Son Sung Deuk, Lee Ga Hun, Lee Byung Eun, Hyewon Park\nArtist Management: Kim Shin Gyu, Kim Su Bin, Kim Dae Young, Park Jun Tae, An Da Sol, Ahn Jong Hun, Yun Tae Woong, Lee Seung Byeong, Lee Jung Min\n\nBig Hit Entertainment. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by Big Hit Entertainment, Seoul, Korea.\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n\n#BTS #방탄소년단 #BTS_Dynamite #Dynamite #MV",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Big Hit Labels",
+        "tags": [
+          "BIGHIT",
+          "빅히트",
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "방탄"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "BTS (방탄소년단) 'Dynamite' Official MV",
+          "description": "BTS (방탄소년단) 'Dynamite' Official MV\n\n\nCredits:\nDirector: Yong Seok Choi (Lumpens)\nAssistant Director: Jihye Yoon (Lumpens)\n\nDirector of Photography: Hyunwoo Nam (GDW)\nB Camera Operator: Eumko\nFocus Puller: Sangwoo Yun, Youngwoo Lee\n2nd AC: Eunki Kim\n3rd AC: Kyuwon Seo\nDIT: Eunil Lee\n\nGaffer: Song Hyunsuk\nLighting Crew: Choi Jung Hyun, Hwang Uigyu, Kim Hyun Ju, Park Cheonil, Park Yeonghwan, Yeom Jaehyeok\n\nJimmy Jib Operator: Youngjung Kim\nJimmy Jib Assistant: Hyun in Kim, Sung Hoon Kim\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art Team: Yeri Kang (MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nProducer: Emma Sungeun Kim (GE Production)\nLocation Manager: Ji Hoon Han\n\nVFX STUDIO: PLASTIC BEACH\nVFX Supervisor: Ohzeon\nVFX Assistant Supervisor: Jojeem\nVFX Project Manager: Chanyoung Song, Jieun Jeong\nVFX Producer: Kyutae Jang\n3D Artist: Kwangwon Lee, Doyeon Kim, Jeonghwa Lee, Jiwon Jeon\n2D Artist: Gihoon Jang, Hyunjun Lee\n\nVisual Creative: Nu Kim, Sabinne Cheon, Lee Sun Kyoung, Kim Ga Eun, Jung Su Jung\nBrand Experience Design: Kris Seongmin Gim, Hyeri Lee \nPerformance Directing: Son Sung Deuk, Lee Ga Hun, Lee Byung Eun, Hyewon Park\nArtist Management: Kim Shin Gyu, Kim Su Bin, Kim Dae Young, Park Jun Tae, An Da Sol, Ahn Jong Hun, Yun Tae Woong, Lee Seung Byeong, Lee Jung Min\n\nBig Hit Entertainment. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by Big Hit Entertainment, Seoul, Korea.\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n\n#BTS #방탄소년단 #BTS_Dynamite #Dynamite #MV"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    }
+  ]
+}

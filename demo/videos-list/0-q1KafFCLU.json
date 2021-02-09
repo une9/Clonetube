@@ -1,0 +1,104 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "6NJ6XsLZytuPJIkSI5UMoRROhdt",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "5sZPGDYg496IiLmw0yka44HZwG4",
+      "id": "0-q1KafFCLU",
+      "snippet": {
+        "publishedAt": "2021-01-27T09:00:00Z",
+        "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+        "title": "[MV] IU(아이유) _ Celebrity",
+        "description": "[MV] IU(아이유) _ Celebrity\n\n\nK-POP Wonderland, 1theK\n\nK-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :)\nWelcome to the official YouTube channel of K-POP Wonderland, 1theK\n\n\"\"1theK Originals\"\" Subscribe 👉 https://www.youtube.com/1theKOriginals\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc\n▶1theK TikTok : https://vt.tiktok.com/2mSMBS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0-q1KafFCLU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0-q1KafFCLU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0-q1KafFCLU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0-q1KafFCLU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0-q1KafFCLU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "1theK (원더케이)",
+        "tags": [
+          "K-POP",
+          "Kpop",
+          "1theK",
+          "원더케이",
+          "Original",
+          "1theK Original",
+          "TOP100",
+          "idol",
+          "아이돌",
+          "라이브",
+          "LIVE",
+          "멜론",
+          "원더케이 오리지널",
+          "음악",
+          "아이유",
+          "Celebrity",
+          "IU",
+          "셀러브리티",
+          "셀러브리티 뮤비",
+          "셀러브리티뮤비"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "[MV] IU(아이유) _ Celebrity",
+          "description": "[MV] IU(아이유) _ Celebrity\n\n\nK-POP Wonderland, 1theK\n\nK-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :)\nWelcome to the official YouTube channel of K-POP Wonderland, 1theK\n\n\"\"1theK Originals\"\" Subscribe 👉 https://www.youtube.com/1theKOriginals\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc\n▶1theK TikTok : https://vt.tiktok.com/2mSMBS"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT3M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31722857",
+        "likeCount": "1867012",
+        "dislikeCount": "20614",
+        "favoriteCount": "0",
+        "commentCount": "100436"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/0-q1KafFCLU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      "localizations": {
+        "en": {
+          "title": "[MV] IU(아이유) _ Celebrity",
+          "description": "[MV] IU(아이유) _ Celebrity\n\n\nK-POP Wonderland, 1theK\n\nK-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :)\nWelcome to the official YouTube channel of K-POP Wonderland, 1theK\n\n\"\"1theK Originals\"\" Subscribe 👉 https://www.youtube.com/1theKOriginals\n\n[Notice] 1theK YouTube is also an official channel for the MV, and music shows will count the views from this channel too.\n[공지] 1theK YouTube는 MV를 유통하는 공식 채널로, 1theK에 업로드된 MV 조회수 또한 음악방송 순위에 반영됩니다.\n\n#NEWRELEASE#MV#1theK#원더케이\n\n▶1theK YT : https://www.youtube.com/1theK\n▶1theK FB  : http://www.facebook.com/1theK\n▶1theK TW : https://twitter.com/1theK\n▶1theK Kakao : https://goo.gl/otRpZc\n▶1theK TikTok : https://vt.tiktok.com/2mSMBS"
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
