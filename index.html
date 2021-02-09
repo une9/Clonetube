@@ -13,38 +13,40 @@
     <div id="thisvideo">
         <section>
             <div id="nowplaying">
+                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XsX3ATc3FbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gdZLi9oWNZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/32si5cfrCNc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             </div>
         </section>
         <section id="info">
             <div>
                 <div id="info-video">
+                    <div id="tags"></div>
                     <div id="info-video-1">
                         <div id="main-info">
-                            <div id="title" class="info-video-1">[BANGTAN BOMB] SUGA's Daechwita Sword Dance Practice - BTS (방탄소년단)</div>
+                            <div id="title" class="info-video-1"></div>
                             <div id="view-upload" class="view-upload">
-                                <div class="view-count info-video-1">조회수 798만회</div>
-                                ㆍ
-                                <div class="publish-time info-video-1">6일 전</div>
+                                <span class="view-count info-video-1"></span>ㆍ<span class="publish-time info-video-1"></span>
                             </div>
                         </div>
                         <div id="dropdown" class="info-video-1"><i class="fas fa-chevron-down"></i></div>
                     </div>
                     <div id="info-video-2">
-                        <div id="likes" class="info-video-2"><i class="far fa-thumbs-up"></i>168만</div>
-                        <div id="dislikes" class="info-video-2"><i class="far fa-thumbs-down"></i>4.2천</div>
-                        <div id="share" class="info-video-2"><i class="fas fa-share"></i>공유</div>
-                        <div id="download" class="info-video-2"><i class="fas fa-arrow-down"></i>오프라인 저장</div>
-                        <div id="save" class="info-video-2"><i class="far fa-save"></i>저장</div>
+                        <div class="info-video-2"><i class="far fa-thumbs-up"></i><span id="likes"></span></div>
+                        <div class="info-video-2"><i class="far fa-thumbs-down"></i><span id="dislikes"></span></div>
+                        <div class="info-video-2"><i class="fas fa-share"></i><span id="share">공유</span></div>
+                        <div class="info-video-2"><i class="fas fa-arrow-down"></i><span id="download">오프라인 저장</span></div>
+                        <div class="info-video-2"><i class="far fa-save"></i><span id="save">저장</span></div>
                     </div>
                 </div>
-                <div id="info-channel">
+                <div id="info-channel" class="borderX">
                     <div id="channel-left" class="info-channel">
                         <div id="channel-image" class="channel-image">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2ZBeM-vzNmOli_VOU8CjyaUiVAOvT4PeZg&usqp=CAU" alt="">
                         </div>
                         <div id="channel-title">
-                            <div id="name" class="channel-left channel-name">BANGTANTV</div>
-                            <div id="subscribers" class="channel-left">구독자 4450만명</div>
+                            <div id="name" class="channel-left channel-name"></div>
+                            <div id="subscribers" class="channel-left"></div>
                         </div>
                     </div>
                     <div id="channel-right">
@@ -52,12 +54,15 @@
                         <div id="alarm" class="info-channel"><i class="fas fa-bell"></i></div>
                     </div>
                 </div>
+                <div id="description-box" class="default">
+                    <div id="description"></div>
+                </div>
                 <div id="comments">
                     <div id="comment">댓글</div>
                     <div id="comments-info-box">
                         <div id="comments-info">
                             <div id="comments-info-right">
-                                <span id="comments-info-number">8.2만</span>
+                                <span id="comments-info-number"></span>
                             </div>
                             <span><i class="fas fa-arrows-alt-v"></i></span>
                         </div>

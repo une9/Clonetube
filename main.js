@@ -1,30 +1,119 @@
 const relatedVideoBox = document.querySelector("#related-video-list");
 
 const API_BASE_URL = "https://www.googleapis.com/youtube/v3";
-const API_KEY = "PUT-YOUR-API-KEY";
+const API_KEY = "AIzaSyAEYQm7sYB3usb7lah8vSwQVnpeJKvCmZc";
 
 const DEMO = true;
 
+async function getResponse(method, parameters) {
+    const parameterStrings = [];
+
+    for (const key in parameters) {
+        const value = parameters[key];
+        if (typeof value === 'string' || typeof value === 'number') {
+            parameterStrings.push(`${key}=${value}`);
+        } else if (Array.isArray(value)) {
+            parameterStrings.push(`${key}=${value.join(',')}`);
+        } else {
+            throw new Error(`Invalid parameter: ${value}`);
+        }
+    }
+
+    if (API_KEY === undefined) {
+        throw new Error('API Key is empty');
+    }
+
+    const queryString = `${API_BASE_URL}/${method}?key=${API_KEY}&${parameterStrings.join('&')}`;
+
+    try {
+        const response = await fetch(queryString);
+        if (response.ok) {
+            return await response.json();
+        } else {
+            throw new Error(`Response code ${response.status}`);
+        }
+    } catch (error) {
+        throw new Error(error.message);
+    }
+}
+
+async function getDemoResponse(url) {
+    const response = await fetch(url);
+    return await response.json();
+}
+
+
+
+
+
+
+
+async function getMainVideoInfo(videoId) {
+
+    const getVideoInfo = DEMO ? await getDemoResponse(`demo/videos-list/${videoId}.json`)
+                            : await getResponse('videos', {
+                                part: ['snippet', 'statistics', 'player'],
+                                id: videoId
+                            });
+    const videoInfo = getVideoInfo.items[0];
+    const channelId = videoInfo.snippet.channelId;
+    
+    const getChannelInfo = DEMO ? await getDemoResponse(`demo/channels-list/${channelId}.json`)
+                            : await getResponse('channels', {
+                                part: ['snippet', 'statistics'],
+                                id: channelId
+                            });
+    
+    const channelInfo = getChannelInfo.items[0];
+
+    const mainVideoInfo = {
+        'player': videoInfo.player.embedHtml,
+        'title': videoInfo.snippet.title,
+        'viewCount': videoInfo.statistics.viewCount,
+        'publishedAt': videoInfo.snippet.publishedAt,
+        'likeCount': videoInfo.statistics.likeCount,
+        'dislikeCount': videoInfo.statistics.dislikeCount,
+        'channelTumbnail': channelInfo.snippet.thumbnails.medium.url,
+        'channelTitle': videoInfo.snippet.channelTitle,
+        'channelSubscriberCount': channelInfo.statistics.subscriberCount,
+        'description': videoInfo.snippet.description,
+        'commentCount': videoInfo.statistics.commentCount,
+    }
+
+    return mainVideoInfo;
+}
+
+
 async function getRelatedVideos(videoId) {
-    const searchListQuery = `${API_BASE_URL}/search?key=${API_KEY}&part=snippet&relatedToVideoId=${videoId}&type=video&maxResults=10`;
-    const searchListResponse = await fetch(DEMO ? `demo/search-list/${videoId}.json` : searchListQuery);
-    const searchList = await searchListResponse.json();
+    const searchList = DEMO ? await getDemoResponse(`demo/search-list/${videoId}.json`)
+                            : await getResponse('search', {
+                                part: ['snippet'],
+                                relatedToVideoId: videoId,
+                                type: 'video',
+                                maxResults: 10
+                            });
     const filteredItems = searchList.items.filter(item => "snippet" in item);
 
-    const videoIds = filteredItems.map(item => item.id.videoId).join('%2C');
-    const videosListQuery = `${API_BASE_URL}/videos?key=${API_KEY}&part=statistics%2CcontentDetails&id=${videoIds}`;
-    const videosListResponsePromise = fetch(DEMO ? `demo/videos-list/all.json` : videosListQuery);
+    const videoIds = filteredItems.map(item => item.id.videoId);
+    const videosListP = DEMO ? getDemoResponse('demo/videos-list/all.json')
+                             : getResponse('videos', {
+                                 part: ['contentDetails', 'statistics'],
+                                 id: videoIds,
+                                 hl: 'ko',
+                                 maxResults: videoIds.length
+                             });
 
-    const channelIds = filteredItems.map(item => item.snippet.channelId).join('%2C');
-    const channelsListQuery = `${API_BASE_URL}/channels?key=${API_KEY}&part=snippet&id=${channelIds}`;
-    const channelsListResponsePromise = fetch(DEMO ? `demo/channels-list/all.json` : channelsListQuery);
+    const channelIds = filteredItems.map(item => item.snippet.channelId);
+    const channelsListP = DEMO ? getDemoResponse('demo/channels-list/all.json')
+                               : getResponse('channels', {
+                                   part: ['snippet'],
+                                   id: channelIds,
+                                   hl: 'ko',
+                                   maxResults: videoIds.length
+                               });
 
-    const videosListResponse = await videosListResponsePromise;
-    const channelsListResponse = await channelsListResponsePromise;
-
-    const videosList = await videosListResponse.json();
     const videosMap = new Map(
-        videosList.items.map(item => [
+        (await videosListP).items.map(item => [
             item.id, {
                 'duration': item.contentDetails.duration,
                 'viewCount': item.statistics.viewCount
@@ -32,9 +121,8 @@ async function getRelatedVideos(videoId) {
         ])
     );
 
-    const channelsList = await channelsListResponse.json();
     const channelsMap = new Map(
-        channelsList.items.map(item => [
+        (await channelsListP).items.map(item => [
             item.id, {
                 'thumbnails': item.snippet.thumbnails.medium.url
             }
@@ -52,7 +140,7 @@ async function getRelatedVideos(videoId) {
             'title': snippet.title,
             'thumbnail': snippet.thumbnails.standard.url,
             'channelTitle': snippet.channelTitle,
-            'publishTime': snippet.publishTime,
+            'publishedAt': snippet.publishedAt,
             'channelImage': channelItem.thumbnails,
             'duration': videoItem.duration,
             'viewCount': videoItem.viewCount
@@ -62,24 +150,22 @@ async function getRelatedVideos(videoId) {
     return relatedVideos;
 }
 
-function convertViewCount(viewCount) {
-    const viewString = viewCount.toString();
-    const viewLength = viewString.length;
-    if (viewLength >= 9) {
-        return viewString.slice(0, -8) + '.' + viewString[viewLength-8] + '억';
-    } else if (viewLength === 8) {
-        return viewString[0] + '천만';
-    } else if (viewLength > 5) {
-        return viewString.slice(0,-4) + '만';
-    } else if (viewLength === 5) {
-        return viewString[0] + '.' + viewString[1] + '만';
-    } else if (viewLength < 5) {
-        return viewString;
+function convertNumbers(number) {
+    const numString = number.toString();
+    const numLength = numString.length;
+    if (numLength >= 9) {
+        return numString.slice(0, -8) + '.' + numString[numLength-8] + '억';
+    } else if (numLength > 5) {
+        return numString.slice(0,-4) + '만';
+    } else if (numLength === 5) {
+        return numString[0] + '.' + numString[1] + '만';
+    } else if (numLength < 5) {
+        return numString;
     }
 }
 
-function convertPublishTime(publishTime) {
-    return moment(publishTime).fromNow();
+function convertPublishedAt(publishedAt) {
+    return moment(publishedAt).fromNow();
 }
 
 function convertDuration(duration) {
@@ -105,7 +191,7 @@ function createRelatedVideoHtml({
     title,
     thumbnail,
     channelTitle,
-    publishTime,
+    publishedAt,
     channelImage,
     duration,
     viewCount
@@ -139,13 +225,7 @@ function createRelatedVideoHtml({
                             <div class="more"><i class="fas fa-ellipsis-v"></i></div>
                         </div>
                         <div class="view-upload">
-                            <div class="channel-name">${channelTitle}</div>
-                            <span class="active">ㆍ</span>
-                            <div class="active-block">
-                                <div class="view-count">조회수 ${convertViewCount(viewCount)}회</div>
-                                ㆍ
-                                <div class="publish-time">${convertPublishTime(publishTime)}</div>
-                            </div>
+                            <span class="channel-name">${channelTitle}</span><span class="active">ㆍ</span><span class="active-block">조회수 ${convertNumbers(viewCount)}회ㆍ${convertPublishedAt(publishedAt)}</span>
                         </div>
                     </div>
                 </div>
@@ -154,11 +234,79 @@ function createRelatedVideoHtml({
     return relatedVideoHtml;
 }
 
+function putMainViedoInfo({
+    player,
+    title, 
+    viewCount, 
+    publishedAt, 
+    likeCount, 
+    dislikeCount,
+    channelTumbnail, 
+    channelTitle, 
+    channelSubscriberCount,
+    description, 
+    commentCount}) {
+        const playerE = document.getElementById('nowplaying');
+        const titleE = document.getElementById('title'); 
+        const viewCountE = document.getElementsByClassName('view-count info-video-1')[0];
+        const publishedAtE = document.getElementsByClassName('publish-time info-video-1')[0]; 
+        const likeCountE = document.getElementById('likes'); 
+        const dislikeCountE = document.getElementById('dislikes'); 
+        const channelTumbnailE = document.getElementById('channel-image');
+        const channelTitleE = document.getElementById('name'); 
+        const channelSubscriberCountE = document.getElementById('subscribers'); 
+        const descriptionE = document.getElementById('description');
+        const commentCountE = document.getElementById('comments-info-number');
+
+        description = description.replace(/(www|http:|https:)+[^\s]+[\w]/g, string => `<a href="${string}", target="_blank">${string}</a>`);
+        description = description.replace(/\n/g, '</br>');
+        const taglist = [];
+        description = description.replace(/#{1}[가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9]+/g, string => {
+                taglist.push(`<a href="#">${string}</a>`);
+                return `<a href="#">${string}</a>`;
+        });
+        document.getElementById('tags').innerHTML = taglist.slice(0,3).join(' ');
+
+        playerE.innerHTML = player;
+        titleE.textContent = title;
+        viewCountE.textContent = '조회수 ' + convertNumbers(viewCount) + '회';
+        publishedAtE.textContent = convertPublishedAt(publishedAt);
+        likeCountE.textContent = convertNumbers(likeCount);
+        dislikeCountE.textContent = convertNumbers(dislikeCount);
+        channelTumbnailE.innerHTML = `<img src='${channelTumbnail}'>`;
+        channelTitleE.textContent = channelTitle;
+        channelSubscriberCountE.textContent = '구독자 ' + convertNumbers(channelSubscriberCount) + '명';
+        descriptionE.innerHTML = description;
+        commentCountE.textContent = convertNumbers(commentCount);
+    }
+
+function openDescription() {
+    const descriptionBox = document.getElementById('description-box');
+    const infoChannel = document.getElementById('info-channel');
+    const description = document.getElementById('description');
+    const descriptionHeight = description.clientHeight;
+
+    infoChannel.classList.toggle('borderO');
+    infoChannel.classList.toggle('borderX');
+    if (descriptionBox.hasAttribute("style")) {
+        descriptionBox.removeAttribute("style");
+    } else {
+        descriptionBox.setAttribute("style", `max-height: ${descriptionHeight}px;`);
+    }
+
+
+    const arrow = document.getElementsByClassName('fa-chevron-down')[0];
+    arrow.classList.toggle('arrowup');
+}
 
 async function main() {
     moment.locale('ko');
-    const relatedVideoList = await getRelatedVideos('gdZLi9oWNZg');
+    putMainViedoInfo(await getMainVideoInfo('0-q1KafFCLU'));
+    const relatedVideoList = await getRelatedVideos('0-q1KafFCLU');
     relatedVideoBox.innerHTML = relatedVideoList.map(x => createRelatedVideoHtml(x)).join('');
+    
+    const infoBox1 = document.getElementById('info-video-1');
+    infoBox1.addEventListener('click', openDescription);
 }
 
 main();
