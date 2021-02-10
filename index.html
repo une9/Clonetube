@@ -11,66 +11,66 @@
 </head>
 <body>
     <div id="thisvideo">
-        <section>
-            <div id="nowplaying">
-                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XsX3ATc3FbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gdZLi9oWNZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/32si5cfrCNc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            </div>
-        </section>
-        <section id="info">
-            <div>
-                <div id="info-video">
-                    <div id="tags"></div>
-                    <div id="info-video-1">
-                        <div id="main-info">
-                            <div id="title" class="info-video-1"></div>
-                            <div id="view-upload" class="view-upload">
-                                <span class="view-count info-video-1"></span>ㆍ<span class="publish-time info-video-1"></span>
+        <div id="nowplaying"></div>
+            <div id="info-box">
+                <div id="info">
+                    <div id="info-video">
+                        <div id="tags"></div>
+                        <div id="info-video-1">
+                            <div id="main-info">
+                                <div id="title" class="info-video-1"></div>
+                                <div id="view-upload" class="view-upload">
+                                    <span class="view-count info-video-1"></span>ㆍ<span class="publish-time info-video-1"></span>
+                                </div>
+                            </div>
+                            <div id="dropdown" class="info-video-1"><i class="fas fa-chevron-down"></i></div>
+                        </div>
+                        <div id="info-video-2">
+                            <div class="info-video-2"><i class="far fa-thumbs-up"></i><span id="likes"></span></div>
+                            <div class="info-video-2"><i class="far fa-thumbs-down"></i><span id="dislikes"></span></div>
+                            <div class="info-video-2"><i class="fas fa-share"></i><span id="share">공유</span></div>
+                            <div class="info-video-2"><i class="fas fa-arrow-down"></i><span id="download">오프라인 저장</span></div>
+                            <div class="info-video-2"><i class="far fa-save"></i><span id="save">저장</span></div>
+                        </div>
+                    </div>
+                    <div id="info-channel" class="borderX">
+                        <div id="channel-left" class="info-channel">
+                            <div id="channel-image" class="channel-image"></div>
+                            <div id="channel-title">
+                                <div id="name" class="channel-left channel-name"></div>
+                                <div id="subscribers" class="channel-left"></div>
                             </div>
                         </div>
-                        <div id="dropdown" class="info-video-1"><i class="fas fa-chevron-down"></i></div>
-                    </div>
-                    <div id="info-video-2">
-                        <div class="info-video-2"><i class="far fa-thumbs-up"></i><span id="likes"></span></div>
-                        <div class="info-video-2"><i class="far fa-thumbs-down"></i><span id="dislikes"></span></div>
-                        <div class="info-video-2"><i class="fas fa-share"></i><span id="share">공유</span></div>
-                        <div class="info-video-2"><i class="fas fa-arrow-down"></i><span id="download">오프라인 저장</span></div>
-                        <div class="info-video-2"><i class="far fa-save"></i><span id="save">저장</span></div>
-                    </div>
-                </div>
-                <div id="info-channel" class="borderX">
-                    <div id="channel-left" class="info-channel">
-                        <div id="channel-image" class="channel-image">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2ZBeM-vzNmOli_VOU8CjyaUiVAOvT4PeZg&usqp=CAU" alt="">
-                        </div>
-                        <div id="channel-title">
-                            <div id="name" class="channel-left channel-name"></div>
-                            <div id="subscribers" class="channel-left"></div>
+                        <div id="channel-right">
+                            <div id="subscribe-status" class="info-channel">구독중</div>
+                            <div id="alarm" class="info-channel"><i class="fas fa-bell"></i></div>
                         </div>
                     </div>
-                    <div id="channel-right">
-                        <div id="subscribe-status" class="info-channel">구독중</div>
-                        <div id="alarm" class="info-channel"><i class="fas fa-bell"></i></div>
+                    <div id="description-box" class="default">
+                        <div id="description"></div>
                     </div>
-                </div>
-                <div id="description-box" class="default">
-                    <div id="description"></div>
-                </div>
-                <div id="comments">
-                    <div id="comment">댓글</div>
-                    <div id="comments-info-box">
+                    <div id="comments">
                         <div id="comments-info">
-                            <div id="comments-info-right">
+                            <div id="comments-info-left">
+                                <div>댓글</div>
                                 <span id="comments-info-number"></span>
                             </div>
                             <span><i class="fas fa-arrows-alt-v"></i></span>
                         </div>
-                        <input type="text" id="comments-write" placeholder="공개 댓글 추가..."></input>
+                        <div id="best-comment">
+                            <div id="best-comment-image" class="comment-image"></div>
+                            <div id="best-comment-text" >태형이 저렇게 좋아해주는 게 저거 작업하신 분은 행복하겠다 ㅋㅋㅋㅋㅋㅋ 그런데 댓글들 다 태형이 그래미 노미네이트 된 것 보다 더 좋아한다곸ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</div>
+                        </div>
                     </div>
                 </div>
+                <div id="comment-list-box" class="comment-list-box hide-list">
+                    <div id="comment-list-header">
+                        <span id="comment-list-header-info"><span>댓글</span> <span id="comments-number"></span></span>
+                        <span id="close-comments"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div id="comment-list"></div>
+                </div>
             </div>
-        </section>
     </div>
     <div id="related-video-list">
     </div>
