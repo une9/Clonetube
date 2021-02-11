@@ -1,7 +1,7 @@
 const relatedVideoBox = document.querySelector("#related-video-list");
 
 const API_BASE_URL = "https://www.googleapis.com/youtube/v3";
-const API_KEY = "YOUR-API-KEY";
+const API_KEY = "AIzaSyAEYQm7sYB3usb7lah8vSwQVnpeJKvCmZc";
 
 const DEMO = true;
 
@@ -24,7 +24,7 @@ async function getResponse(method, parameters) {
     }
 
     const queryString = `${API_BASE_URL}/${method}?key=${API_KEY}&${parameterStrings.join('&')}`;
-    console.log(queryString);
+
     try {
         const response = await fetch(queryString);
         if (response.ok) {
@@ -66,6 +66,7 @@ async function getMainVideoInfo(videoId) {
         'publishedAt': videoInfo.snippet.publishedAt,
         'likeCount': videoInfo.statistics.likeCount,
         'dislikeCount': videoInfo.statistics.dislikeCount,
+        'channelId': channelId,
         'channelTumbnail': channelInfo.snippet.thumbnails.medium.url,
         'channelTitle': videoInfo.snippet.channelTitle,
         'channelSubscriberCount': channelInfo.statistics.subscriberCount,
@@ -136,7 +137,8 @@ async function getRelatedVideos(videoId) {
             'publishedAt': snippet.publishedAt,
             'channelImage': channelItem.thumbnails,
             'duration': videoItem.duration,
-            'viewCount': videoItem.viewCount
+            'viewCount': videoItem.viewCount,
+            'channelId': channelId
         };
     });
 
@@ -170,9 +172,9 @@ function createOneReply(reply) {
                         <div class="author-image"><img src="${authorImage}"></div>
                         <div class="comment-right">
                             <div class="author-info">
-                                <span class="author-name">${authorName}</span>ㆍ<span class="publishedAt">${convertPublishedAt(commentPublishedAt)}</span><span class="updatedAt">${convertPublishedAt(commentUpadatedAt)}</span>
+                                <span class="author-name">${authorName}</span>ㆍ<span class="publishedAt">${convertPublishedAt(commentPublishedAt)}</span><span class="updatedAt">${commentPublishedAt !== commentUpadatedAt ? ' (수정됨)' : ''}</span>
                             </div>
-                            <div class="comment-text">${textDisplay}</div>
+                            <div class="reply-text">${textDisplay}</div>
                             <div class="comment-info">
                                 <div class="comment-info-left">
                                     <div><i class="far fa-thumbs-up"></i><span class="likeCount">${commentLikeCount == undefined ? '' : convertNumbers(commentLikeCount)}</span></div>
@@ -220,9 +222,9 @@ function createOneCommentThread(item) {
                             <div class="author-image"><img src="${authorImage}"></div>
                             <div class="comment-right">
                                 <div class="author-info">
-                                    <span class="author-name">${authorName}</span>ㆍ<span class="publishedAt">${convertPublishedAt(commentPublishedAt)}</span><span class="updatedAt">${convertPublishedAt(commentUpadatedAt)}</span>
+                                    <span class="author-name">${authorName}</span>ㆍ<span class="publishedAt">${convertPublishedAt(commentPublishedAt)}</span><span class="updatedAt">${commentPublishedAt !== commentUpadatedAt ? ' (수정됨)' : ''}</span>
                                 </div>
-                                <div class="comment-text">${textDisplay}</div>
+                                <div class="comment-text"><div class="ctContent">${textDisplay}</div><span class="ell"></span></div>
                                 <div class="comment-info">
                                     <div class="comment-info-left">
                                         <div><i class="far fa-thumbs-up"></i><span class="likeCount">${commentLikeCount == undefined ? '' : convertNumbers(commentLikeCount)}</span></div>
@@ -242,12 +244,24 @@ function createOneCommentThread(item) {
     return commentHtml;
 }
 
+function createBestComment(obj) {
+    const bestCommentImgE = document.getElementById('best-comment-image');
+    const bestCommentTextE = document.getElementById('best-comment-text');
+
+    const bestCommentImg = obj.authorProfileImageUrl;
+    const bestCommentText = obj.textDisplay;
+
+    bestCommentImgE.innerHTML = `<img src="${bestCommentImg}">`;
+    bestCommentTextE.innerHTML = bestCommentText;
+}
+
 function createCommentThread(obj) {
     const objkeys = Object.keys(obj);
+    createBestComment(obj[objkeys[0]].snippet.topLevelComment.snippet);
 
     const thread = [];
     for (let key of objkeys) {
-        const temp = createOneCommentThread(obj[key]);
+        let temp = createOneCommentThread(obj[key]);
         thread.push(temp);
     }
     return thread.join('');
@@ -297,7 +311,8 @@ function createRelatedVideoHtml({
     publishedAt,
     channelImage,
     duration,
-    viewCount
+    viewCount,
+    channelId
 }) {
     const relatedVideoHtml = `
         <div class="rv">
@@ -314,21 +329,21 @@ function createRelatedVideoHtml({
                     <span>${convertDuration(duration)}</span>
                 </div>
                 <div class="thumb">
-                    <img class="thumb-standard" src="${thumbnail}" alt="">
+                    <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank"><img class="thumb-standard" src="${thumbnail}" alt=""></a>
                 </div>
             </div>
             <div class="rv-info">
                 <div class="video-info">
                     <div class="channel-image">
-                        <img src="${channelImage}" alt="">
+                        <a href="https://www.youtube.com/channel/${channelId}" target="_blank"><img src="${channelImage}" alt=""></a>
                     </div>
                     <div class="video-info-right">
                         <div class="video-info-up">
-                            <div class="title">${title}</div>
+                            <div class="title"><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">${title}</a></div>
                             <div class="more"><i class="fas fa-ellipsis-v"></i></div>
                         </div>
                         <div class="view-upload">
-                            <span class="channel-name">${channelTitle}</span><span class="active">ㆍ</span><span class="active-block">조회수 ${convertNumbers(viewCount)}회ㆍ${convertPublishedAt(publishedAt)}</span>
+                            <a href="https://www.youtube.com/channel/${channelId}" target="_blank"><span class="channel-name">${channelTitle}</span></a><span class="active">ㆍ</span><span class="active-block">조회수 ${convertNumbers(viewCount)}회ㆍ${convertPublishedAt(publishedAt)}</span>
                         </div>
                     </div>
                 </div>
@@ -344,6 +359,7 @@ function putMainViedoInfo({
     publishedAt, 
     likeCount, 
     dislikeCount,
+    channelId,
     channelTumbnail, 
     channelTitle, 
     channelSubscriberCount,
@@ -366,8 +382,9 @@ function putMainViedoInfo({
         description = description.replace(/\n/g, '</br>');
         const taglist = [];
         description = description.replace(/#{1}[가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9]+/g, string => {
-                taglist.push(`<a href="#">${string}</a>`);
-                return `<a href="#">${string}</a>`;
+                const replaced = `<a href="https://www.youtube.com/hashtag/${string.slice(1)}" target="_blank">${string}</a>`;
+                taglist.push(replaced);
+                return replaced;
         });
         document.getElementById('tags').innerHTML = taglist.slice(0,3).join(' ');
 
@@ -377,7 +394,7 @@ function putMainViedoInfo({
         publishedAtE.textContent = convertPublishedAt(publishedAt);
         likeCountE.textContent = convertNumbers(likeCount);
         dislikeCountE.textContent = convertNumbers(dislikeCount);
-        channelTumbnailE.innerHTML = `<img src='${channelTumbnail}'>`;
+        channelTumbnailE.innerHTML = `<a href="https://www.youtube.com/channel/${channelId}" target="_blank"><img src='${channelTumbnail}'></a>`;
         channelTitleE.textContent = channelTitle;
         channelSubscriberCountE.textContent = '구독자 ' + convertNumbers(channelSubscriberCount) + '명';
         descriptionE.innerHTML = description;
@@ -444,17 +461,60 @@ function closeComments() {
 
 }
 
+function removeEllipsis([commentTextContent, ell]) {
+    commentTextContent.classList.remove('ellipsis-check');
+    ell.innerText = '';
+    ell.removeAttribute('style');
+    commentTextContent.setAttribute("style", 'display: block');
+}
+
+{/* <div class="comment-text">   <div class="ctContent">${textDisplay}</div>   <span class="ell"></span>   </div> */}
+
+function CommentEllipsisCheck(commentTextE) {
+    const commentTextContent = commentTextE.getElementsByClassName('ctContent')[0];
+    const ell = commentTextE.getElementsByClassName('ell')[0];
+
+    const originHeight = commentTextContent.clientHeight;
+    commentTextContent.classList.add('ellipsis-check');
+    const ellipsisHeight = commentTextContent.clientHeight;
+
+    if (originHeight > ellipsisHeight) {
+        ell.innerText = '자세히 보기';
+        ell.setAttribute('style', 'padding-top: 0.5rem; display: inline-block');
+        ell.addEventListener('click', () => removeEllipsis([commentTextContent, ell]));
+    } else {
+        commentTextContent.classList.remove('ellipsis-check');
+    }
+    return commentTextE;
+}
+
+function resizeHandler([commentListBox, relatedVideoList]) {
+    const m = matchMedia('screen and (min-width: 1000px)');
+    if (m.matches && commentListBox.classList.contains('show-list')) {
+        commentListBox.classList.replace('show-list', 'hide-list');
+        relatedVideoList.removeAttribute('style');
+    }
+}
+
 async function main(videoId) {
     moment.locale('ko');
     putMainViedoInfo(await getMainVideoInfo(videoId));
-    const relatedVideoList = await getRelatedVideos(videoId);
-    relatedVideoBox.innerHTML = relatedVideoList.map(x => createRelatedVideoHtml(x)).join('');
+    const relatedVideoListInfo = await getRelatedVideos(videoId);
+    relatedVideoBox.innerHTML = relatedVideoListInfo.map(x => createRelatedVideoHtml(x)).join('');
     
     const infoBox1 = document.getElementById('info-video-1');
     infoBox1.addEventListener('click', openDescription);
 
     const commentList = document.getElementById('comment-list');
     commentList.innerHTML = createCommentThread(await getComments(videoId));
+
+    const topLevelComments = document.getElementsByClassName('comment-text');
+    const commentListBox = document.getElementById('comment-list-box');
+    commentListBox.setAttribute('style', 'display: block');
+    for (let commentTextE of topLevelComments) {
+        commentTextE = CommentEllipsisCheck(commentTextE);
+    }
+    commentListBox.removeAttribute('style');
 
     const commentRepliesToggle = document.getElementsByClassName('comment');
     for (let comment of commentRepliesToggle) {
@@ -468,6 +528,17 @@ async function main(videoId) {
     bestComment.addEventListener('click', openComments);
     const xButton = document.getElementById('close-comments');
     xButton.addEventListener('click', closeComments);
+
+    const relatedVideoList = document.getElementById('related-video-list');
+    window.addEventListener('resize', () => resizeHandler([commentListBox, relatedVideoList]));
 }
 
-main('0-q1KafFCLU');
+function callRandomVideo() {
+    const demoVideoList = ['-5q5mZbe3V8', '0-q1KafFCLU', '3iM_06QeZi8', '3l5jwqPT2yk', 'CN4fffh7gmk', 'D1PvIWdJ8xo', 'ez51zZrq744', 'gdZLi9oWNZg', 'LXOJk2PFKgY', 'm3DZsBw5bnE', 'TgOu00Mf3kI', 'XsX3ATc3FbA', 'zJCdkOpU90g'];
+    const randomNumber = Math.floor(Math.random() * demoVideoList.length);
+    return main(demoVideoList[randomNumber]);
+}
+
+callRandomVideo();
+
+// main('3iM_06QeZi8');
