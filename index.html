@@ -10,35 +10,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="thisvideo">
-        <div id="nowplaying"></div>
-            <div id="blank"></div>
-            <div id="info-box">
-                <div id="info">
-                    <div id="info-video">
+    <main id="thisvideo">
+        <figure id="nowplaying">
+        </figure>
+            <div id="blank">
+            </div>
+            <article id="info-box">
+                <section id="info">
+                    <section id="info-video">
                         <div id="tags"></div>
                         <div id="info-video-1">
                             <div id="main-info">
-                                <div id="title" class="info-video-1"></div>
+                                <h1 id="title" class="info-video-1"></h1>
                                 <div id="view-upload" class="view-upload">
                                     <span class="view-count info-video-1"></span>ㆍ<span class="publish-time info-video-1"></span>
                                 </div>
                             </div>
                             <div id="dropdown" class="info-video-1"><i class="fas fa-chevron-down"></i></div>
                         </div>
-                        <div id="info-video-2">
-                            <div class="info-video-2"><i class="far fa-thumbs-up"></i><span id="likes"></span></div>
-                            <div class="info-video-2"><i class="far fa-thumbs-down"></i><span id="dislikes"></span></div>
-                            <div class="info-video-2"><i class="fas fa-share"></i><span id="share">공유</span></div>
-                            <div class="info-video-2"><i class="fas fa-arrow-down"></i><span id="download">오프라인 저장</span></div>
-                            <div class="info-video-2"><i class="far fa-save"></i><span id="save">저장</span></div>
-                        </div>
-                    </div>
-                    <div id="info-channel" class="borderX">
+                        <ul id="info-video-2">
+                            <li class="info-video-2"><i class="far fa-thumbs-up"></i><span id="likes"></span></li>
+                            <li class="info-video-2"><i class="far fa-thumbs-down"></i><span id="dislikes"></span></li>
+                            <li class="info-video-2"><i class="fas fa-share"></i><span id="share">공유</span></li>
+                            <li class="info-video-2"><i class="fas fa-arrow-down"></i><span id="download">오프라인 저장</span></li>
+                            <li class="info-video-2"><i class="far fa-save"></i><span id="save">저장</span></li>
+                        </ul>
+                    </section>
+                    <section id="info-channel" class="borderX">
                         <div id="channel-left" class="info-channel">
                             <div id="channel-image" class="channel-image"></div>
                             <div id="channel-title">
-                                <div id="name" class="channel-left channel-name"></div>
+                                <h2 id="name" class="channel-left channel-name"></h2>
                                 <div id="subscribers" class="channel-left"></div>
                             </div>
                         </div>
@@ -46,15 +48,15 @@
                             <div id="subscribe-status" class="info-channel">구독중</div>
                             <div id="alarm" class="info-channel"><i class="fas fa-bell"></i></div>
                         </div>
-                    </div>
-                    <div id="description-box" class="default-box">
-                        <div id="description-header" class="default"><i class="fas fa-times"></i></div>
-                        <div id="description"></div>
-                    </div>
-                    <div id="comments">
+                    </section>
+                    <section id="description-box" class="default-box">
+                        <div id="description-header" class="default"><span>설명</span><i class="fas fa-times"></i></div>
+                        <p id="description"></p>
+                    </section>
+                    <section id="comments">
                         <div id="comments-info">
                             <div id="comments-info-left">
-                                <div>댓글</div>
+                                <h2>댓글</h2>
                                 <span id="comments-info-number"></span>
                             </div>
                             <span><i class="fas fa-arrows-alt-v"></i></span>
@@ -63,19 +65,18 @@
                             <div id="best-comment-image" class="comment-image"></div>
                             <div id="best-comment-text"></div>
                         </div>
-                    </div>
-                </div>
-                <div id="comment-list-box" class="comment-list-box hide-list">
+                    </section>
+                </section>
+                <section id="comment-list-box" class="comment-list-box hide-list">
                     <div id="comment-list-header">
                         <span id="comment-list-header-info"><span>댓글</span> <span id="comments-number"></span></span>
                         <span id="close-comments"><i class="fas fa-times"></i></span>
                     </div>
                     <div id="comment-list"></div>
-                </div>
-            </div>
-    </div>
-    <div id="related-video-list">
-    </div>
+                </section>
+            </article>
+    </main>
+    <ul id="related-video-list"></ul>
     <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/a44f7f0fa8.js" crossorigin="anonymous"></script>

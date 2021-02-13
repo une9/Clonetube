@@ -7,11 +7,37 @@
   --hyperlink-font-color: rgb(0, 111, 175);
   --light-font-color: grey;
   --border-color: lightgrey;
+  --min-width: 324px;
+}
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
 }
 
 html {
   font-size: 14.5px;
-  min-width: 324px;
+  min-width: var(--min-width);
 }
 
 body {
@@ -24,6 +50,21 @@ body {
 
 body::-webkit-scrollbar {
   display: none !important;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+ol li, ul li {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: inherit;
+  margin: 0;
 }
 
 /* video */
@@ -42,8 +83,8 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   height: 100%;
-  min-width: 324px;
-  min-height: calc(324px * 0.5625);
+  min-width: var(--min-width);
+  min-height: calc(var(--min-width) * 0.5625);
 }
 
 #blank {
@@ -250,10 +291,6 @@ body::-webkit-scrollbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -389,6 +426,7 @@ a, a:visited {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  max-width: calc(100vw - 6.6rem);
 }
 
 .author-info {
@@ -403,10 +441,19 @@ a, a:visited {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   word-break: keep-all;
+  word-wrap: break-word;
 }
 
 .comment-text {
+  padding-right: 0.5rem;
   margin: 0.5rem 0;
+}
+
+.comment-text,
+.reply-text {
+  max-width: calc(100vw - 9.8rem);
+  word-break: keep-all;
+  word-wrap: break-word;
 }
 
 .ell {
@@ -522,8 +569,6 @@ a, a:visited {
 
 .hide-list {
   display: none;
-  -webkit-transition-delay: box-shadow .5s;
-          transition-delay: box-shadow .5s;
 }
 
 .show-list,
@@ -539,21 +584,13 @@ a, a:visited {
   width: 100%;
   overflow-y: scroll;
   -ms-overflow-style: none;
-  border-radius: 3% 3% 0% 0%;
-  -webkit-box-shadow: 0 -1px 10px 10px black;
-          box-shadow: 0 -1px 10px 10px black;
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
-  transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s;
-  -webkit-animation: slideIn .3s forwards;
-  animation: slideIn .3s forwards;
+  -webkit-animation: slide-in .3s forwards;
+  animation: slide-in .3s forwards;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
   transform: translateZ(0);
-  -webkit-font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 .show-list::-webkit-scrollbar,
@@ -561,7 +598,13 @@ a, a:visited {
   display: none !important;
 }
 
-@-webkit-keyframes slideIn {
+.slide-out {
+  -webkit-transition: top .3s;
+  transition: top .3s;
+  top: 100vh;
+}
+
+@-webkit-keyframes slide-in {
   0% {
     -webkit-transform: translateY(100vh);
             transform: translateY(100vh);
@@ -572,7 +615,7 @@ a, a:visited {
   }
 }
 
-@keyframes slideIn {
+@keyframes slide-in {
   0% {
     -webkit-transform: translateY(100vh);
             transform: translateY(100vh);
@@ -598,8 +641,12 @@ a, a:visited {
   margin-bottom: 0.5rem;
 }
 
+#related-video-list > .rv:last-child {
+  margin-bottom: 0;
+}
+
 .rv-info {
-  padding: 0.5rem;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
 }
 
 .channel-image {
@@ -702,9 +749,10 @@ a, a:visited {
 }
 
 .playtime {
+  vertical-align: middle;
   background: rgba(0, 0, 0, 0.7);
   margin: 0.75rem;
-  padding: 0 0.3rem 0.2rem 0.3rem;
+  padding: 0 0.3rem;
   border-radius: 4px;
   color: white;
   font-size: var(--smaller-font-size);
@@ -716,6 +764,10 @@ a, a:visited {
 
 .playtime span {
   vertical-align: middle;
+}
+
+.thumb:hover, .title:hover {
+  cursor: pointer;
 }
 
 /* media query */
@@ -805,6 +857,13 @@ a, a:visited {
   }
   #comments i {
     display: none;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .show-list,
+  .mobile {
+    top: calc(0.5625 * var(--min-width));
   }
 }
 /*# sourceMappingURL=style.css.map */

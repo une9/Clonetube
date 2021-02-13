@@ -301,6 +301,14 @@ function convertDuration(duration) {
     }
 }
 
+function onclickFunc(videoId) {
+    if (DEMO) {
+        window.open(`https://www.youtube.com/watch?v=${videoId}`, `Clonetube`)
+    } else {
+        main(`${videoId}`);
+    }
+}
+
 function createRelatedVideoHtml({
     videoId,
     title,
@@ -313,7 +321,7 @@ function createRelatedVideoHtml({
     channelId
 }) {
     const relatedVideoHtml = `
-        <div class="rv">
+        <li class="rv">
             <div class="rv-thumb">
                 <div class="hover-buttons">
                     <div class="watch-later">
@@ -324,11 +332,11 @@ function createRelatedVideoHtml({
                     </div>
                 </div>
                 <div class="playtime">
-                    <span>${convertDuration(duration)}</span>
+                    <div>${convertDuration(duration)}</div>
                 </div>
-                <div class="thumb">
-                    <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank"><img class="thumb-standard" src="${thumbnail}" alt=""></a>
-                </div>
+                <figure class="thumb">
+                    <img class="thumb-standard" src="${thumbnail}" alt="${title}" onclick="onclickFunc('${videoId}')">
+                </figure>
             </div>
             <div class="rv-info">
                 <div class="video-info">
@@ -337,7 +345,7 @@ function createRelatedVideoHtml({
                     </div>
                     <div class="video-info-right">
                         <div class="video-info-up">
-                            <div class="title"><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">${title}</a></div>
+                            <div class="title" onclick="onclickFunc('${videoId}')">${title}</div>
                             <div class="more"><i class="fas fa-ellipsis-v"></i></div>
                         </div>
                         <div class="view-upload">
@@ -346,7 +354,7 @@ function createRelatedVideoHtml({
                     </div>
                 </div>
             </div>
-        </div>`;
+        </li>`;
     return relatedVideoHtml;
 }
 
@@ -428,10 +436,15 @@ function openDescription() {
         descriptionHeader.classList.add('visible');
         const descriptionCloseButton = descriptionHeader.getElementsByTagName('i')[0];
         descriptionCloseButton.addEventListener('click', () => {
-            descriptionBox.classList.remove('mobile');
-            descriptionHeader.classList.remove('visible');
             relatedVideoList.removeAttribute("style");
-
+            
+            descriptionBox.classList.add('slide-out');
+            setTimeout(() => {
+                descriptionHeader.classList.remove('visible');
+                descriptionBox.classList.remove('slide-out');
+                descriptionBox.classList.remove('mobile');
+            }, 300)
+            
         })
     }
     
@@ -467,14 +480,17 @@ function openComments() {
 }
 
 function closeComments() {
-    const commentListBox = document.getElementById('comment-list-box');
-    if (commentListBox.classList.contains('show-list')) {
-        commentListBox.classList.replace('show-list', 'hide-list');
-    }
-
     const relatedVideoList = document.getElementById('related-video-list');
     relatedVideoList.removeAttribute('style');
 
+    const commentListBox = document.getElementById('comment-list-box');
+    if (commentListBox.classList.contains('show-list')) {
+        commentListBox.classList.add('slide-out');
+        setTimeout(() => {
+            commentListBox.classList.remove('slide-out');
+            commentListBox.classList.replace('show-list', 'hide-list');
+        }, 300)
+    }
 }
 
 function removeEllipsis([commentTextContent, ell]) {
@@ -483,8 +499,6 @@ function removeEllipsis([commentTextContent, ell]) {
     ell.removeAttribute('style');
     commentTextContent.setAttribute("style", 'display: block');
 }
-
-{/* <div class="comment-text">   <div class="ctContent">${textDisplay}</div>   <span class="ell"></span>   </div> */}
 
 function CommentEllipsisCheck(commentTextE) {
     const commentTextContent = commentTextE.getElementsByClassName('ctContent')[0];
@@ -568,6 +582,6 @@ function callRandomVideo() {
     return main(demoVideoList[randomNumber]);
 }
 
-// callRandomVideo();
+callRandomVideo();
 
-main('-5q5mZbe3V8');
+// main('0-q1KafFCLU');
