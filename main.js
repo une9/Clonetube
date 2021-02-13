@@ -1,7 +1,5 @@
-const relatedVideoBox = document.querySelector("#related-video-list");
-
 const API_BASE_URL = "https://www.googleapis.com/youtube/v3";
-const API_KEY = "AIzaSyAEYQm7sYB3usb7lah8vSwQVnpeJKvCmZc";
+const API_KEY = "YOUR-API-KEY";
 
 const DEMO = true;
 
@@ -162,7 +160,7 @@ function createOneReply(reply) {
 
     const authorImage = replyInfo.authorProfileImageUrl;
     const authorName = replyInfo.authorDisplayName;
-    const textDisplay = replyInfo.textDisplay;
+    const textDisplay = replyInfo.textDisplay.replace(/@{1}[가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9]+/, string => `<span class='mention'>${string}</span>`);
     const commentLikeCount = replyInfo.likeCount;
     const commentDislikeCount = replyInfo.dislikeCount;
     const commentPublishedAt = replyInfo.publishedAt;
@@ -381,7 +379,7 @@ function putMainViedoInfo({
         description = description.replace(/(www|http:|https:)+[^\s]+[\w]/g, string => `<a href="${string}", target="_blank">${string}</a>`);
         description = description.replace(/\n/g, '</br>');
         const taglist = [];
-        description = description.replace(/#{1}[가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9]+/g, string => {
+        description = description.replace(/#{1}[가-힣ㄱ-ㅎㅏ-ㅣa-zA-Z0-9|_]+/g, string => {
                 const replaced = `<a href="https://www.youtube.com/hashtag/${string.slice(1)}" target="_blank">${string}</a>`;
                 taglist.push(replaced);
                 return replaced;
@@ -403,22 +401,40 @@ function putMainViedoInfo({
     }
 
 function openDescription() {
+    const widthCheck = matchMedia('screen and (min-width: 1000px)');
     const descriptionBox = document.getElementById('description-box');
-    const infoChannel = document.getElementById('info-channel');
-    const description = document.getElementById('description');
-    const descriptionHeight = description.clientHeight;
 
-    infoChannel.classList.toggle('borderO');
-    infoChannel.classList.toggle('borderX');
-    if (descriptionBox.hasAttribute("style")) {
-        descriptionBox.removeAttribute("style");
+    if (widthCheck.matches) {
+        const infoChannel = document.getElementById('info-channel');
+        const description = document.getElementById('description');
+        const descriptionHeight = description.clientHeight;
+
+        infoChannel.classList.toggle('borderO');
+        infoChannel.classList.toggle('borderX');
+        if (descriptionBox.hasAttribute("style")) {
+            descriptionBox.removeAttribute("style");
+        } else {
+            descriptionBox.setAttribute("style", `max-height: ${descriptionHeight}px;`);
+        }
+
+        const arrow = document.getElementsByClassName('fa-chevron-down')[0];
+        arrow.classList.toggle('arrowup');
     } else {
-        descriptionBox.setAttribute("style", `max-height: ${descriptionHeight}px;`);
+        descriptionBox.classList.add('mobile');
+
+        const relatedVideoList = document.getElementById('related-video-list');
+        relatedVideoList.setAttribute("style", 'display: none');
+        const descriptionHeader = document.getElementById('description-header');
+        descriptionHeader.classList.add('visible');
+        const descriptionCloseButton = descriptionHeader.getElementsByTagName('i')[0];
+        descriptionCloseButton.addEventListener('click', () => {
+            descriptionBox.classList.remove('mobile');
+            descriptionHeader.classList.remove('visible');
+            relatedVideoList.removeAttribute("style");
+
+        })
     }
-
-
-    const arrow = document.getElementsByClassName('fa-chevron-down')[0];
-    arrow.classList.toggle('arrowup');
+    
 }
 
 function repliesToggleFunc(comment, button) {
@@ -490,8 +506,20 @@ function CommentEllipsisCheck(commentTextE) {
 
 function resizeHandler([commentListBox, relatedVideoList]) {
     const m = matchMedia('screen and (min-width: 1000px)');
-    if (m.matches && commentListBox.classList.contains('show-list')) {
+    const descriptionBox = document.getElementById('description-box');
+    const descriptionHeader = document.getElementById('description-header');
+    const infoChannel = document.getElementById('info-channel');
+    if (m.matches) {
         commentListBox.classList.replace('show-list', 'hide-list');
+        relatedVideoList.removeAttribute('style');
+
+        descriptionBox.classList.remove('mobile');
+        descriptionHeader.classList.remove('visible');
+    } else if (!m.matches) {
+        descriptionBox.removeAttribute('style');
+        infoChannel.classList.remove('borderO');
+        infoChannel.classList.add('borderX');
+
         relatedVideoList.removeAttribute('style');
     }
 }
@@ -500,6 +528,7 @@ async function main(videoId) {
     moment.locale('ko');
     putMainViedoInfo(await getMainVideoInfo(videoId));
     const relatedVideoListInfo = await getRelatedVideos(videoId);
+    const relatedVideoBox = document.getElementById("related-video-list");
     relatedVideoBox.innerHTML = relatedVideoListInfo.map(x => createRelatedVideoHtml(x)).join('');
     
     const infoBox1 = document.getElementById('info-video-1');
@@ -539,6 +568,6 @@ function callRandomVideo() {
     return main(demoVideoList[randomNumber]);
 }
 
-callRandomVideo();
+// callRandomVideo();
 
-// main('3iM_06QeZi8');
+main('-5q5mZbe3V8');
