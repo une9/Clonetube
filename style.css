@@ -873,4 +873,22 @@ a, a:visited {
     top: calc(0.5625 * var(--min-width));
   }
 }
+
+@media screen and (min-width: 1440px) {
+  html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body {
+    max-width: 1440px;
+  }
+  #nowplaying {
+    max-width: calc(1440px - 350px);
+    padding-top: calc((1440px - 350px) * 0.5625);
+  }
+}
 /*# sourceMappingURL=style.css.map */
