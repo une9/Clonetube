@@ -301,14 +301,6 @@ function convertDuration(duration) {
     }
 }
 
-function onclickFunc(videoId) {
-    if (DEMO) {
-        window.open(`https://www.youtube.com/watch?v=${videoId}`, `Clonetube`)
-    } else {
-        main(`${videoId}`);
-    }
-}
-
 function createRelatedVideoHtml({
     videoId,
     title,
@@ -335,7 +327,7 @@ function createRelatedVideoHtml({
                     <div>${convertDuration(duration)}</div>
                 </div>
                 <figure class="thumb">
-                    <img class="thumb-standard" src="${thumbnail}" alt="${title}" onclick="onclickFunc('${videoId}')">
+                    <img class="thumb-standard" src="${thumbnail}" alt="${title}" onclick="main('${videoId}')">
                 </figure>
             </div>
             <div class="rv-info">
@@ -345,7 +337,7 @@ function createRelatedVideoHtml({
                     </div>
                     <div class="video-info-right">
                         <div class="video-info-up">
-                            <div class="title" onclick="onclickFunc('${videoId}')">${title}</div>
+                            <div class="title" onclick="main('${videoId}')">${title}</div>
                             <div class="more"><i class="fas fa-ellipsis-v"></i></div>
                         </div>
                         <div class="view-upload">
@@ -401,7 +393,7 @@ function putMainViedoInfo({
         likeCountE.textContent = convertNumbers(likeCount);
         dislikeCountE.textContent = convertNumbers(dislikeCount);
         channelTumbnailE.innerHTML = `<a href="https://www.youtube.com/channel/${channelId}" target="_blank"><img src='${channelTumbnail}'></a>`;
-        channelTitleE.textContent = channelTitle;
+        channelTitleE.innerHTML = `<a href="https://www.youtube.com/channel/${channelId}" target="_blank">${channelTitle}</a>`;
         channelSubscriberCountE.textContent = '구독자 ' + convertNumbers(channelSubscriberCount) + '명';
         descriptionE.innerHTML = description;
         commentCountE.textContent = convertNumbers(commentCount);
@@ -409,7 +401,7 @@ function putMainViedoInfo({
     }
 
 function openDescription() {
-    const widthCheck = matchMedia('screen and (min-width: 1000px)');
+    const widthCheck = matchMedia('screen and (min-width: 1024px)');
     const descriptionBox = document.getElementById('description-box');
 
     if (widthCheck.matches) {
@@ -519,7 +511,7 @@ function CommentEllipsisCheck(commentTextE) {
 }
 
 function resizeHandler([commentListBox, relatedVideoList]) {
-    const m = matchMedia('screen and (min-width: 1000px)');
+    const m = matchMedia('screen and (min-width: 1024px)');
     const descriptionBox = document.getElementById('description-box');
     const descriptionHeader = document.getElementById('description-header');
     const infoChannel = document.getElementById('info-channel');

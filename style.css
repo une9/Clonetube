@@ -37,12 +37,15 @@ time, mark, audio, video {
 
 html {
   font-size: 14.5px;
+  line-height: 1.4rem;
   min-width: var(--min-width);
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   height: 100%;
   overflow-y: scroll;
   -ms-overflow-style: none;
@@ -273,9 +276,13 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--light-font-color);
 }
 
+#name a, #name:visited a {
+  color: black;
+}
+
 /* description */
 #description {
-  padding: 0.7rem 1.2rem;
+  padding: 1.2rem;
 }
 
 .default-box {
@@ -771,7 +778,7 @@ a, a:visited {
 }
 
 /* media query */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   body {
     display: -webkit-box;
     display: -ms-flexbox;
