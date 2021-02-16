@@ -353,7 +353,7 @@ function createRelatedVideoHtml({
                     <div>${convertDuration(duration)}</div>
                 </div>
                 <figure class="thumb">
-                    <img class="thumb-standard" src="${thumbnail}" alt="${title}" onclick="main('${videoId}')">
+                    <img class="thumb-standard" src="${thumbnail}" alt="${title}" onclick="moveToVideoId('${videoId}')">
                 </figure>
             </div>
             <div class="rv-info">
@@ -365,7 +365,7 @@ function createRelatedVideoHtml({
                     </div>
                     <div class="video-info-right">
                         <div class="video-info-up">
-                            <div class="title" onclick="main('${videoId}')">${title}</div>
+                            <div class="title" onclick="moveToVideoId('${videoId}')">${title}</div>
                             <div class="more">
                                 <i class="fas fa-ellipsis-v"></i>
                             </div>
@@ -621,9 +621,12 @@ function queryVideoId() {
         return videoId;
     } else {
         videoId = getRandomDemoVideoId();
-        document.location = `?v=${videoId}`;
         return videoId;
     }
+}
+
+function moveToVideoId(videoId) {
+    document.location = `?v=${videoId}`;
 }
 
 const videoId = queryVideoId();
@@ -636,13 +639,10 @@ if (!DEMO_VIDEO_LIST.includes(videoId) && !apiKey) {
     apiKey = prompt(message);
 
     if (!apiKey) {
-        document.location = `?v=${getRandomDemoVideoId()}`;
+        moveToVideoId(getRandomDemoVideoId());
     }
 }
 
 main(videoId);
 
 // main('0-q1KafFCLU');
-
-
-'m3DZsBw5bnE'
