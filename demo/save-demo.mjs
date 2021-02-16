@@ -132,7 +132,7 @@ async function main() {
 
     // Read target videoIds
     let videoIds;
-    const targetVideosPath = path.join(dirname, 'target-videos.json');
+    const targetVideosPath = path.join(dirname, 'demo-videos.json');
 
     if (fs.existsSync(targetVideosPath)) {
         videoIds = JSON.parse(fs.readFileSync(targetVideosPath));

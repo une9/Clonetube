@@ -16,15 +16,33 @@
   - clickable items (channel img, channel title, related videos...)
   - dualized route to get information (DEMO version vs full version with API key)
   - used only vanilla javascript
-     
-     
+
+
 * Some noticed errors but not fixed due to several reasons 😂 (I hope I can fix them someday)
   - The texts are blurred during slide-in animation of description box & comments box (using css animation)
   - The appearing & disappearing effects of description box & comments box were not coded in consistent way
-  - It could not display the exact nickname mentioned in the reply 
+  - It could not display the exact nickname mentioned in the reply
   - The word-wrap does not work properly on some comments (I don't know the reason)
   - The line-heights of some comments are not consistent on some browsers (I don't know the reason)
-  - Some letters were broken while fetching information through the Youtube API 
+  - Some letters were broken while fetching information through the Youtube API
   - Some design details have to be fixed for the better look e.g. the thickness of the line of icons, the line-height of comment texts
   - slow display of first comment
   - incomplete semantic design of html
+
+<br>
+
+## Demo Data Fetcher
+
+Write demo video IDs in demo/demo-videos.json file.
+```json
+[
+  "gdZLi9oWNZg", "-5q5mZbe3V8", "TgOu00Mf3kI", "m3DZsBw5bnE", "XsX3ATc3FbA",
+  "CN4fffh7gmk", "D1PvIWdJ8xo", "LXOJk2PFKgY", "zJCdkOpU90g", "3l5jwqPT2yk",
+  "ez51zZrq744", "0-q1KafFCLU", "3iM_06QeZi8"
+]
+```
+
+Run data fetcher with your Youtube Data API key.
+```bash
+node demo/save-demo.mjs <API_KEY>
+```
