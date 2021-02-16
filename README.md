@@ -24,7 +24,6 @@
   - It could not display the exact nickname mentioned in the reply
   - The word-wrap does not work properly on some comments (I don't know the reason)
   - The line-heights of some comments are not consistent on some browsers (I don't know the reason)
-  - Some letters were broken while fetching information through the Youtube API
   - Some design details have to be fixed for the better look e.g. the thickness of the line of icons, the line-height of comment texts
   - slow display of first comment
   - incomplete semantic design of html

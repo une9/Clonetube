@@ -429,7 +429,9 @@ function putMainViedoInfo({
     dislikeCountE.textContent = convertNumbers(dislikeCount);
     channelTumbnailE.innerHTML = `<a href="https://www.youtube.com/channel/${channelId}" target="_blank"><img src='${channelTumbnail}'></a>`;
     channelTitleE.innerHTML = `<a href="https://www.youtube.com/channel/${channelId}" target="_blank">${channelTitle}</a>`;
-    channelSubscriberCountE.textContent = '구독자 ' + convertNumbers(channelSubscriberCount) + '명';
+    if (channelSubscriberCount) {
+        channelSubscriberCountE.textContent = '구독자 ' + convertNumbers(channelSubscriberCount) + '명';
+    }
     descriptionE.innerHTML = description;
     commentCountE.textContent = convertNumbers(commentCount);
     commentCountE2.textContent = convertNumbers(commentCount);
